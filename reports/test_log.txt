@@ -1,0 +1,20 @@
+2025-11-01 17:18:50,889 [INFO] 🔗 Membuka halaman: https://playwright.dev
+2025-11-01 17:18:51,642 [INFO] 📄 Judul halaman: Fast and reliable end-to-end testing for modern web apps | Playwright
+2025-11-01 17:18:51,660 [INFO] 🧾 Header ditemukan: Playwright enables reliable end-to-end testing for modern web apps.
+2025-11-01 17:18:51,980 [INFO] 📸 Screenshot disimpan di: reports/screenshots/playwright_home_20251101_171851.png
+2025-11-01 17:19:14,216 [INFO] 🔗 Membuka halaman: https://playwright.dev
+2025-11-01 17:19:14,872 [INFO] 📄 Judul halaman: Fast and reliable end-to-end testing for modern web apps | Playwright
+2025-11-01 17:19:14,889 [INFO] 🧾 Header ditemukan: Playwright enables reliable end-to-end testing for modern web apps.
+2025-11-01 17:19:14,986 [INFO] 📸 Screenshot disimpan di: reports/screenshots/playwright_home_20251101_171914.png
+2025-11-01 19:03:29,160 [INFO] 🌐 Membuka: https://playwright.dev
+2025-11-01 19:03:29,943 [INFO] 📄 Judul halaman: Fast and reliable end-to-end testing for modern web apps | Playwright
+2025-11-01 19:03:29,943 [INFO] ✅ [PASS] https://playwright.dev - Judul cocok.
+2025-11-01 19:03:29,943 [INFO] ------------------------------------------------------------
+2025-11-01 19:03:29,984 [INFO] 🌐 Membuka: https://w3schools.com
+2025-11-01 19:03:31,266 [INFO] 📄 Judul halaman: W3Schools Online Web Tutorials
+2025-11-01 19:03:31,267 [INFO] ✅ [PASS] https://w3schools.com - Judul cocok.
+2025-11-01 19:03:31,267 [INFO] ------------------------------------------------------------
+2025-11-01 19:03:31,307 [INFO] 🌐 Membuka: https://python.org
+2025-11-01 19:03:31,973 [INFO] 📄 Judul halaman: Welcome to Python.org
+2025-11-01 19:03:31,973 [INFO] ✅ [PASS] https://python.org - Judul cocok.
+2025-11-01 19:03:31,973 [INFO] ------------------------------------------------------------
