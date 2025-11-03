@@ -1,42 +1,53 @@
-import logging
-from datetime import datetime
+import os
+from playwright.sync_api import sync_playwright, expect
+import pytest
 
-# ====================================================
-# Setup logging (semua log disimpan ke file + tampil di terminal)
-# ====================================================
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s",
-    handlers=[
-        logging.FileHandler("reports/test_log.txt", mode="a"),
-        logging.StreamHandler()
-    ]
-)
-logger = logging.getLogger(__name__)
+LOG_DIR = "tests-output/logs"
+SCREENSHOT_DIR = "tests-output/element_screenshots"
+
+os.makedirs(LOG_DIR, exist_ok=True)
+os.makedirs(SCREENSHOT_DIR, exist_ok=True)
 
 
-# ====================================================
-# Test verifikasi elemen dan logging
-# ====================================================
-def test_playwright_homepage(page):
-    url = "https://playwright.dev"
-    logger.info(f"🔗 Membuka halaman: {url}")
+def test_logging_elements_and_screenshot(record_property):
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=False)
+        page = browser.new_page()
 
-    # Buka halaman dengan timeout lebih panjang dan stabil
-    page.goto(url, wait_until="domcontentloaded", timeout=60000)
-    title = page.title()
-    logger.info(f"📄 Judul halaman: {title}")
+        # 1️⃣ Buka halaman
+        page.goto("https://the-internet.herokuapp.com/add_remove_elements/")
 
-    # Ambil teks dari elemen h1 utama
-    header = page.locator("h1").inner_text()
-    logger.info(f"🧾 Header ditemukan: {header}")
+        # 2️⃣ Tambah beberapa elemen
+        for _ in range(3):
+            page.click("button[onclick='addElement()']")
 
-    # Simpan screenshot
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    screenshot_path = f"reports/screenshots/playwright_home_{timestamp}.png"
-    page.screenshot(path=screenshot_path)
-    logger.info(f"📸 Screenshot disimpan di: {screenshot_path}")
+        # 3️⃣ Ambil semua tombol "Delete"
+        delete_buttons = page.locator("button.added-manually")
+        count = delete_buttons.count()
+        print(f"🧩 Jumlah tombol Delete: {count}")
+        record_property("delete_button_count", count)
 
-    # Assertion: pastikan teks h1 mengandung kalimat ini
-    expected = "Playwright enables reliable end-to-end testing"
-    assert expected in header, f"Teks header tidak sesuai. Ditemukan: {header}"
+        # 4️⃣ Screenshot setiap tombol Delete
+        for i in range(count):
+            btn = delete_buttons.nth(i)
+            text = btn.inner_text()
+            screenshot_path = os.path.join(SCREENSHOT_DIR, f"delete_button_{i+1}.png")
+            btn.screenshot(path=screenshot_path)
+            print(f"📸 Screenshot tombol '{text}' disimpan di: {screenshot_path}")
+
+        # 5️⃣ Hapus satu tombol dan log hasil
+        delete_buttons.first.click()
+        remaining = page.locator("button.added-manually").count()
+        print(f"🧹 Sisa tombol setelah hapus: {remaining}")
+        record_property("remaining_after_delete", remaining)
+
+        # 6️⃣ Simpan log hasil ke file
+        log_file = os.path.join(LOG_DIR, "element_log.txt")
+        with open(log_file, "w") as f:
+            f.write(f"Total tombol awal: {count}\n")
+            f.write(f"Sisa tombol setelah hapus: {remaining}\n")
+
+        print(f"🗒️ Log hasil disimpan di: {log_file}")
+        record_property("log_file", log_file)
+
+        browser.close()

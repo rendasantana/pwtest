@@ -1,0 +1,2 @@
+Total tombol awal: 3
+Sisa tombol setelah hapus: 2
