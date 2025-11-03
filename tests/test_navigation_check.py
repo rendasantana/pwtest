@@ -11,16 +11,18 @@ logger = logging.getLogger(__name__)
 
 class TestNavigationCheck:
 
+    # bagian parameterize (ubah hanya bagian links_to_check)
     @pytest.mark.parametrize("url, links_to_check", [
         (
             "https://playwright.dev/python/",
             [
                 {"text": "Get started", "url_part": "intro"},
-                {"text": "API reference", "url_part": "api"},
+                {"text": "API", "url_part": "api"},           # <--- diperbarui
                 {"text": "Guides", "url_part": "guides"},
             ]
         ),
     ])
+
     def test_navigation_links(self, page: Page, url, links_to_check, record_property):
         """
         Robust navigation checker:

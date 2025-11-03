@@ -1,0 +1,5 @@
+name: url:https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_submit
+name:iframeResult url:about:blank
+name:__tcfapiLocator url:about:blank
+name:__uspapiLocator url:about:blank
+name:__adconsentLocator url:about:blank

@@ -508,3 +508,244 @@ Call log:
 2025-11-02 18:29:29,405 [INFO] 🔍 Mengecek tautan: Guides
 2025-11-02 18:29:29,461 [INFO] [ERROR] Tidak dapat menemukan link: Guides
 2025-11-02 18:29:29,691 [INFO] 📸 Screenshot error disimpan: reports/screenshots/FAILED_NAV_20251102_182922.png
+2025-11-02 18:34:21,280 [WARNING] Gagal ambil screenshot: Page.screenshot: Unsupported type: <class 'str'>
+2025-11-02 18:35:11,767 [WARNING] Gagal ambil screenshot: Page.screenshot: Unsupported type: <class 'str'>
+2025-11-02 20:52:46,420 [INFO] Membuka halaman: https://playwright.dev
+2025-11-02 20:52:47,164 [INFO] Title halaman: Fast and reliable end-to-end testing for modern web apps | Playwright
+2025-11-02 20:52:47,198 [INFO] ✅ https://playwright.dev berisi teks 'Playwright' seperti yang diharapkan.
+2025-11-02 20:53:07,219 [INFO] 🔗 Membuka halaman: https://playwright.dev
+2025-11-02 20:53:07,873 [INFO] 📄 Judul halaman: Fast and reliable end-to-end testing for modern web apps | Playwright
+2025-11-02 20:53:07,890 [INFO] 🧾 Header ditemukan: Playwright enables reliable end-to-end testing for modern web apps.
+2025-11-02 20:53:08,003 [INFO] 📸 Screenshot disimpan di: reports/screenshots/playwright_home_20251102_205307.png
+2025-11-02 20:53:08,602 [INFO] 🔹 Memulai pengujian navigasi utama...
+2025-11-02 20:53:10,323 [INFO] ✅ Halaman utama Playwright Python dibuka.
+2025-11-02 20:53:10,351 [INFO] ✅ Judul halaman sesuai (regex cocok).
+2025-11-02 20:53:10,351 [INFO] 🔍 Mengecek tautan: Get started
+2025-11-02 20:53:10,570 [INFO] ✅ URL berisi 'intro' sesuai ekspektasi.
+2025-11-02 20:53:11,729 [INFO] ↩️ Kembali ke halaman utama untuk cek tautan berikutnya.
+2025-11-02 20:53:11,729 [INFO] 🔍 Mengecek tautan: API reference
+2025-11-02 20:53:12,296 [INFO] [ERROR] Tidak dapat menemukan link: API reference
+2025-11-02 20:53:12,583 [INFO] 📸 Screenshot error disimpan: reports/screenshots/FAILED_NAV_20251102_205308.png
+2025-11-02 20:53:13,136 [INFO] 🔹 Memulai pengujian tautan footer...
+2025-11-02 20:53:14,344 [INFO] 🔍 Ditemukan 12 tautan di footer.
+2025-11-02 20:53:14,353 [INFO] ➡️ Mengecek footer link: Getting started (/python/docs/intro)
+2025-11-02 20:53:14,353 [INFO] ✅ Link footer valid: /python/docs/intro
+2025-11-02 20:53:14,358 [INFO] ➡️ Mengecek footer link: Playwright Training (https://learn.microsoft.com/en-us/training/modules/build-with-playwright/)
+2025-11-02 20:53:14,358 [INFO] ✅ Link footer valid: https://learn.microsoft.com/en-us/training/modules/build-with-playwright/
+2025-11-02 20:53:14,364 [INFO] ➡️ Mengecek footer link: Learn Videos (/python/community/learn-videos)
+2025-11-02 20:53:14,364 [INFO] ✅ Link footer valid: /python/community/learn-videos
+2025-11-02 20:53:14,371 [INFO] ➡️ Mengecek footer link: Feature Videos (/python/community/feature-videos)
+2025-11-02 20:53:14,371 [INFO] ✅ Link footer valid: /python/community/feature-videos
+2025-11-02 20:53:14,375 [INFO] ➡️ Mengecek footer link: Stack Overflow (https://stackoverflow.com/questions/tagged/playwright)
+2025-11-02 20:53:14,376 [INFO] ✅ Link footer valid: https://stackoverflow.com/questions/tagged/playwright
+2025-11-02 20:53:14,381 [INFO] ➡️ Mengecek footer link: Discord (https://aka.ms/playwright/discord)
+2025-11-02 20:53:14,381 [INFO] ✅ Link footer valid: https://aka.ms/playwright/discord
+2025-11-02 20:53:14,393 [INFO] ➡️ Mengecek footer link: Twitter (https://twitter.com/playwrightweb)
+2025-11-02 20:53:14,393 [INFO] ✅ Link footer valid: https://twitter.com/playwrightweb
+2025-11-02 20:53:14,449 [INFO] ➡️ Mengecek footer link: LinkedIn (https://www.linkedin.com/company/playwrightweb)
+2025-11-02 20:53:14,450 [INFO] ✅ Link footer valid: https://www.linkedin.com/company/playwrightweb
+2025-11-02 20:53:14,457 [INFO] ➡️ Mengecek footer link: GitHub (https://github.com/microsoft/playwright-python)
+2025-11-02 20:53:14,457 [INFO] ✅ Link footer valid: https://github.com/microsoft/playwright-python
+2025-11-02 20:53:14,470 [INFO] ➡️ Mengecek footer link: YouTube (https://www.youtube.com/channel/UC46Zj8pDH5tDosqm1gd7WTg)
+2025-11-02 20:53:14,471 [INFO] ✅ Link footer valid: https://www.youtube.com/channel/UC46Zj8pDH5tDosqm1gd7WTg
+2025-11-02 20:53:14,476 [INFO] ➡️ Mengecek footer link: Blog (https://dev.to/playwright)
+2025-11-02 20:53:14,476 [INFO] ✅ Link footer valid: https://dev.to/playwright
+2025-11-02 20:53:14,481 [INFO] ➡️ Mengecek footer link: Ambassadors (/python/community/ambassadors)
+2025-11-02 20:53:14,481 [INFO] ✅ Link footer valid: /python/community/ambassadors
+2025-11-02 20:53:14,745 [INFO] 📸 Screenshot footer tersimpan.
+2025-11-02 20:53:14,746 [INFO] 🎉 Semua tautan footer berhasil diverifikasi.
+2025-11-02 20:53:16,601 [INFO] 🌐 Membuka: https://playwright.dev
+2025-11-02 20:53:17,242 [INFO] 📄 Judul halaman: Fast and reliable end-to-end testing for modern web apps | Playwright
+2025-11-02 20:53:17,242 [INFO] ✅ [PASS] https://playwright.dev - Judul cocok.
+2025-11-02 20:53:17,243 [INFO] ------------------------------------------------------------
+2025-11-02 20:53:17,919 [INFO] Membuka halaman: https://w3schools.com
+2025-11-02 20:53:19,842 [INFO] Title halaman: W3Schools Online Web Tutorials
+2025-11-02 20:53:19,867 [INFO] ✅ https://w3schools.com berisi teks 'W3Schools' seperti yang diharapkan.
+2025-11-02 20:53:34,286 [INFO] 🌐 Membuka: https://w3schools.com
+2025-11-02 20:53:35,592 [INFO] 📄 Judul halaman: W3Schools Online Web Tutorials
+2025-11-02 20:53:35,593 [INFO] ✅ [PASS] https://w3schools.com - Judul cocok.
+2025-11-02 20:53:35,593 [INFO] ------------------------------------------------------------
+2025-11-02 20:53:36,936 [INFO] 🌐 Membuka: https://python.org
+2025-11-02 20:53:38,706 [INFO] 📄 Judul halaman: Welcome to Python.org
+2025-11-02 20:53:38,706 [INFO] ✅ [PASS] https://python.org - Judul cocok.
+2025-11-02 20:53:38,706 [INFO] ------------------------------------------------------------
+2025-11-03 08:36:09,099 [INFO] Membuka halaman: https://playwright.dev
+2025-11-03 08:36:09,846 [INFO] Title halaman: Fast and reliable end-to-end testing for modern web apps | Playwright
+2025-11-03 08:36:09,886 [INFO] ✅ https://playwright.dev berisi teks 'Playwright' seperti yang diharapkan.
+2025-11-03 08:36:28,539 [INFO] 🔗 Membuka halaman: https://playwright.dev
+2025-11-03 08:36:29,220 [INFO] 📄 Judul halaman: Fast and reliable end-to-end testing for modern web apps | Playwright
+2025-11-03 08:36:29,231 [INFO] 🧾 Header ditemukan: Playwright enables reliable end-to-end testing for modern web apps.
+2025-11-03 08:36:29,392 [INFO] 📸 Screenshot disimpan di: reports/screenshots/playwright_home_20251103_083629.png
+2025-11-03 08:36:29,840 [INFO] 🔹 Memulai pengujian navigasi utama...
+2025-11-03 08:36:31,383 [INFO] ✅ Halaman utama Playwright Python dibuka.
+2025-11-03 08:36:31,413 [INFO] ✅ Judul halaman sesuai (regex cocok).
+2025-11-03 08:36:31,413 [INFO] 🔍 Mengecek tautan: Get started
+2025-11-03 08:36:31,550 [INFO] ✅ URL berisi 'intro' sesuai ekspektasi.
+2025-11-03 08:36:32,678 [INFO] ↩️ Kembali ke halaman utama untuk cek tautan berikutnya.
+2025-11-03 08:36:32,679 [INFO] 🔍 Mengecek tautan: API reference
+2025-11-03 08:36:33,245 [INFO] [ERROR] Tidak dapat menemukan link: API reference
+2025-11-03 08:36:33,451 [INFO] 📸 Screenshot error disimpan: reports/screenshots/FAILED_NAV_20251103_083629.png
+2025-11-03 08:36:33,890 [INFO] 🔹 Memulai pengujian tautan footer...
+2025-11-03 08:36:35,069 [INFO] 🔍 Ditemukan 12 tautan di footer.
+2025-11-03 08:36:35,077 [INFO] ➡️ Mengecek footer link: Getting started (/python/docs/intro)
+2025-11-03 08:36:35,078 [INFO] ✅ Link footer valid: /python/docs/intro
+2025-11-03 08:36:35,084 [INFO] ➡️ Mengecek footer link: Playwright Training (https://learn.microsoft.com/en-us/training/modules/build-with-playwright/)
+2025-11-03 08:36:35,084 [INFO] ✅ Link footer valid: https://learn.microsoft.com/en-us/training/modules/build-with-playwright/
+2025-11-03 08:36:35,089 [INFO] ➡️ Mengecek footer link: Learn Videos (/python/community/learn-videos)
+2025-11-03 08:36:35,089 [INFO] ✅ Link footer valid: /python/community/learn-videos
+2025-11-03 08:36:35,095 [INFO] ➡️ Mengecek footer link: Feature Videos (/python/community/feature-videos)
+2025-11-03 08:36:35,096 [INFO] ✅ Link footer valid: /python/community/feature-videos
+2025-11-03 08:36:35,100 [INFO] ➡️ Mengecek footer link: Stack Overflow (https://stackoverflow.com/questions/tagged/playwright)
+2025-11-03 08:36:35,100 [INFO] ✅ Link footer valid: https://stackoverflow.com/questions/tagged/playwright
+2025-11-03 08:36:35,104 [INFO] ➡️ Mengecek footer link: Discord (https://aka.ms/playwright/discord)
+2025-11-03 08:36:35,105 [INFO] ✅ Link footer valid: https://aka.ms/playwright/discord
+2025-11-03 08:36:35,109 [INFO] ➡️ Mengecek footer link: Twitter (https://twitter.com/playwrightweb)
+2025-11-03 08:36:35,109 [INFO] ✅ Link footer valid: https://twitter.com/playwrightweb
+2025-11-03 08:36:35,112 [INFO] ➡️ Mengecek footer link: LinkedIn (https://www.linkedin.com/company/playwrightweb)
+2025-11-03 08:36:35,113 [INFO] ✅ Link footer valid: https://www.linkedin.com/company/playwrightweb
+2025-11-03 08:36:35,116 [INFO] ➡️ Mengecek footer link: GitHub (https://github.com/microsoft/playwright-python)
+2025-11-03 08:36:35,116 [INFO] ✅ Link footer valid: https://github.com/microsoft/playwright-python
+2025-11-03 08:36:35,120 [INFO] ➡️ Mengecek footer link: YouTube (https://www.youtube.com/channel/UC46Zj8pDH5tDosqm1gd7WTg)
+2025-11-03 08:36:35,120 [INFO] ✅ Link footer valid: https://www.youtube.com/channel/UC46Zj8pDH5tDosqm1gd7WTg
+2025-11-03 08:36:35,124 [INFO] ➡️ Mengecek footer link: Blog (https://dev.to/playwright)
+2025-11-03 08:36:35,124 [INFO] ✅ Link footer valid: https://dev.to/playwright
+2025-11-03 08:36:35,126 [INFO] ➡️ Mengecek footer link: Ambassadors (/python/community/ambassadors)
+2025-11-03 08:36:35,126 [INFO] ✅ Link footer valid: /python/community/ambassadors
+2025-11-03 08:36:35,282 [INFO] 📸 Screenshot footer tersimpan.
+2025-11-03 08:36:35,282 [INFO] 🎉 Semua tautan footer berhasil diverifikasi.
+2025-11-03 08:36:36,837 [INFO] 🌐 Membuka: https://playwright.dev
+2025-11-03 08:36:37,371 [INFO] 📄 Judul halaman: Fast and reliable end-to-end testing for modern web apps | Playwright
+2025-11-03 08:36:37,371 [INFO] ✅ [PASS] https://playwright.dev - Judul cocok.
+2025-11-03 08:36:37,371 [INFO] ------------------------------------------------------------
+2025-11-03 08:36:37,871 [INFO] Membuka halaman: https://w3schools.com
+2025-11-03 08:36:39,824 [INFO] Title halaman: W3Schools Online Web Tutorials
+2025-11-03 08:36:39,841 [INFO] ✅ https://w3schools.com berisi teks 'W3Schools' seperti yang diharapkan.
+2025-11-03 08:36:48,890 [INFO] 🌐 Membuka: https://w3schools.com
+2025-11-03 08:36:50,327 [INFO] 📄 Judul halaman: W3Schools Online Web Tutorials
+2025-11-03 08:36:50,327 [INFO] ✅ [PASS] https://w3schools.com - Judul cocok.
+2025-11-03 08:36:50,327 [INFO] ------------------------------------------------------------
+2025-11-03 08:36:51,222 [INFO] 🌐 Membuka: https://python.org
+2025-11-03 08:36:51,958 [INFO] 📄 Judul halaman: Welcome to Python.org
+2025-11-03 08:36:51,958 [INFO] ✅ [PASS] https://python.org - Judul cocok.
+2025-11-03 08:36:51,958 [INFO] ------------------------------------------------------------
+2025-11-03 08:47:12,638 [INFO] Membuka halaman: https://playwright.dev
+2025-11-03 08:47:13,267 [INFO] Title halaman: Playwright
+2025-11-03 08:47:13,299 [INFO] ✅ https://playwright.dev berisi teks 'Playwright' seperti yang diharapkan.
+2025-11-03 08:47:30,122 [INFO] 🔗 Membuka halaman: https://playwright.dev
+2025-11-03 08:47:30,917 [INFO] 📄 Judul halaman: Fast and reliable end-to-end testing for modern web apps | Playwright
+2025-11-03 08:47:30,929 [INFO] 🧾 Header ditemukan: Playwright enables reliable end-to-end testing for modern web apps.
+2025-11-03 08:47:31,039 [INFO] 📸 Screenshot disimpan di: reports/screenshots/playwright_home_20251103_084730.png
+2025-11-03 08:47:31,442 [INFO] 🔹 Memulai pengujian navigasi utama...
+2025-11-03 08:47:32,971 [INFO] ✅ Halaman utama Playwright Python dibuka.
+2025-11-03 08:47:32,999 [INFO] ✅ Judul halaman sesuai (regex cocok).
+2025-11-03 08:47:33,000 [INFO] 🔍 Mengecek tautan: Get started
+2025-11-03 08:47:33,196 [INFO] ✅ URL berisi 'intro' sesuai ekspektasi.
+2025-11-03 08:47:34,305 [INFO] ↩️ Kembali ke halaman utama untuk cek tautan berikutnya.
+2025-11-03 08:47:34,306 [INFO] 🔍 Mengecek tautan: API reference
+2025-11-03 08:47:34,878 [INFO] [ERROR] Tidak dapat menemukan link: API reference
+2025-11-03 08:47:35,082 [INFO] 📸 Screenshot error disimpan: reports/screenshots/FAILED_NAV_20251103_084731.png
+2025-11-03 08:47:35,537 [INFO] 🔹 Memulai pengujian tautan footer...
+2025-11-03 08:47:36,702 [INFO] 🔍 Ditemukan 12 tautan di footer.
+2025-11-03 08:47:36,710 [INFO] ➡️ Mengecek footer link: Getting started (/python/docs/intro)
+2025-11-03 08:47:36,710 [INFO] ✅ Link footer valid: /python/docs/intro
+2025-11-03 08:47:36,717 [INFO] ➡️ Mengecek footer link: Playwright Training (https://learn.microsoft.com/en-us/training/modules/build-with-playwright/)
+2025-11-03 08:47:36,717 [INFO] ✅ Link footer valid: https://learn.microsoft.com/en-us/training/modules/build-with-playwright/
+2025-11-03 08:47:36,723 [INFO] ➡️ Mengecek footer link: Learn Videos (/python/community/learn-videos)
+2025-11-03 08:47:36,723 [INFO] ✅ Link footer valid: /python/community/learn-videos
+2025-11-03 08:47:36,728 [INFO] ➡️ Mengecek footer link: Feature Videos (/python/community/feature-videos)
+2025-11-03 08:47:36,728 [INFO] ✅ Link footer valid: /python/community/feature-videos
+2025-11-03 08:47:36,732 [INFO] ➡️ Mengecek footer link: Stack Overflow (https://stackoverflow.com/questions/tagged/playwright)
+2025-11-03 08:47:36,733 [INFO] ✅ Link footer valid: https://stackoverflow.com/questions/tagged/playwright
+2025-11-03 08:47:36,737 [INFO] ➡️ Mengecek footer link: Discord (https://aka.ms/playwright/discord)
+2025-11-03 08:47:36,737 [INFO] ✅ Link footer valid: https://aka.ms/playwright/discord
+2025-11-03 08:47:36,740 [INFO] ➡️ Mengecek footer link: Twitter (https://twitter.com/playwrightweb)
+2025-11-03 08:47:36,740 [INFO] ✅ Link footer valid: https://twitter.com/playwrightweb
+2025-11-03 08:47:36,744 [INFO] ➡️ Mengecek footer link: LinkedIn (https://www.linkedin.com/company/playwrightweb)
+2025-11-03 08:47:36,744 [INFO] ✅ Link footer valid: https://www.linkedin.com/company/playwrightweb
+2025-11-03 08:47:36,748 [INFO] ➡️ Mengecek footer link: GitHub (https://github.com/microsoft/playwright-python)
+2025-11-03 08:47:36,748 [INFO] ✅ Link footer valid: https://github.com/microsoft/playwright-python
+2025-11-03 08:47:36,753 [INFO] ➡️ Mengecek footer link: YouTube (https://www.youtube.com/channel/UC46Zj8pDH5tDosqm1gd7WTg)
+2025-11-03 08:47:36,753 [INFO] ✅ Link footer valid: https://www.youtube.com/channel/UC46Zj8pDH5tDosqm1gd7WTg
+2025-11-03 08:47:36,757 [INFO] ➡️ Mengecek footer link: Blog (https://dev.to/playwright)
+2025-11-03 08:47:36,757 [INFO] ✅ Link footer valid: https://dev.to/playwright
+2025-11-03 08:47:36,761 [INFO] ➡️ Mengecek footer link: Ambassadors (/python/community/ambassadors)
+2025-11-03 08:47:36,761 [INFO] ✅ Link footer valid: /python/community/ambassadors
+2025-11-03 08:47:36,906 [INFO] 📸 Screenshot footer tersimpan.
+2025-11-03 08:47:36,906 [INFO] 🎉 Semua tautan footer berhasil diverifikasi.
+2025-11-03 08:47:38,352 [INFO] 🌐 Membuka: https://playwright.dev
+2025-11-03 08:47:38,874 [INFO] 📄 Judul halaman: Fast and reliable end-to-end testing for modern web apps | Playwright
+2025-11-03 08:47:38,874 [INFO] ✅ [PASS] https://playwright.dev - Judul cocok.
+2025-11-03 08:47:38,874 [INFO] ------------------------------------------------------------
+2025-11-03 08:47:39,351 [INFO] Membuka halaman: https://w3schools.com
+2025-11-03 08:47:41,384 [INFO] Title halaman: W3Schools Online Web Tutorials
+2025-11-03 08:47:41,401 [INFO] ✅ https://w3schools.com berisi teks 'W3Schools' seperti yang diharapkan.
+2025-11-03 08:47:49,795 [INFO] 🌐 Membuka: https://w3schools.com
+2025-11-03 08:47:51,338 [INFO] 📄 Judul halaman: W3Schools Online Web Tutorials
+2025-11-03 08:47:51,338 [INFO] ✅ [PASS] https://w3schools.com - Judul cocok.
+2025-11-03 08:47:51,338 [INFO] ------------------------------------------------------------
+2025-11-03 08:47:52,169 [INFO] 🌐 Membuka: https://python.org
+2025-11-03 08:47:52,875 [INFO] 📄 Judul halaman: Welcome to Python.org
+2025-11-03 08:47:52,876 [INFO] ✅ [PASS] https://python.org - Judul cocok.
+2025-11-03 08:47:52,876 [INFO] ------------------------------------------------------------
+2025-11-03 08:48:57,373 [INFO] Membuka halaman: https://playwright.dev
+2025-11-03 08:48:57,966 [INFO] Title halaman: Fast and reliable end-to-end testing for modern web apps | Playwright
+2025-11-03 08:48:57,994 [INFO] ✅ https://playwright.dev berisi teks 'Playwright' seperti yang diharapkan.
+2025-11-03 08:49:17,390 [INFO] 🔗 Membuka halaman: https://playwright.dev
+2025-11-03 08:49:17,913 [INFO] 📄 Judul halaman: Fast and reliable end-to-end testing for modern web apps | Playwright
+2025-11-03 08:49:17,924 [INFO] 🧾 Header ditemukan: Playwright enables reliable end-to-end testing for modern web apps.
+2025-11-03 08:49:18,046 [INFO] 📸 Screenshot disimpan di: reports/screenshots/playwright_home_20251103_084917.png
+2025-11-03 08:49:18,507 [INFO] 🔹 Memulai pengujian navigasi utama...
+2025-11-03 08:49:19,752 [INFO] ✅ Halaman utama Playwright Python dibuka.
+2025-11-03 08:49:19,779 [INFO] ✅ Judul halaman sesuai (regex cocok).
+2025-11-03 08:49:19,780 [INFO] 🔍 Mengecek tautan: Get started
+2025-11-03 08:49:19,935 [INFO] ✅ URL berisi 'intro' sesuai ekspektasi.
+2025-11-03 08:49:21,047 [INFO] ↩️ Kembali ke halaman utama untuk cek tautan berikutnya.
+2025-11-03 08:49:21,048 [INFO] 🔍 Mengecek tautan: API
+2025-11-03 08:49:21,205 [INFO] ✅ URL berisi 'api' sesuai ekspektasi.
+2025-11-03 08:49:22,303 [INFO] ↩️ Kembali ke halaman utama untuk cek tautan berikutnya.
+2025-11-03 08:49:22,304 [INFO] 🔍 Mengecek tautan: Guides
+2025-11-03 08:49:22,875 [INFO] [ERROR] Tidak dapat menemukan link: Guides
+2025-11-03 08:49:23,088 [INFO] 📸 Screenshot error disimpan: reports/screenshots/FAILED_NAV_20251103_084918.png
+2025-11-03 08:49:23,523 [INFO] 🔹 Memulai pengujian tautan footer...
+2025-11-03 08:49:24,809 [INFO] 🔍 Ditemukan 12 tautan di footer.
+2025-11-03 08:49:24,818 [INFO] ➡️ Mengecek footer link: Getting started (/python/docs/intro)
+2025-11-03 08:49:24,818 [INFO] ✅ Link footer valid: /python/docs/intro
+2025-11-03 08:49:24,824 [INFO] ➡️ Mengecek footer link: Playwright Training (https://learn.microsoft.com/en-us/training/modules/build-with-playwright/)
+2025-11-03 08:49:24,824 [INFO] ✅ Link footer valid: https://learn.microsoft.com/en-us/training/modules/build-with-playwright/
+2025-11-03 08:49:24,829 [INFO] ➡️ Mengecek footer link: Learn Videos (/python/community/learn-videos)
+2025-11-03 08:49:24,829 [INFO] ✅ Link footer valid: /python/community/learn-videos
+2025-11-03 08:49:24,835 [INFO] ➡️ Mengecek footer link: Feature Videos (/python/community/feature-videos)
+2025-11-03 08:49:24,835 [INFO] ✅ Link footer valid: /python/community/feature-videos
+2025-11-03 08:49:24,839 [INFO] ➡️ Mengecek footer link: Stack Overflow (https://stackoverflow.com/questions/tagged/playwright)
+2025-11-03 08:49:24,840 [INFO] ✅ Link footer valid: https://stackoverflow.com/questions/tagged/playwright
+2025-11-03 08:49:24,843 [INFO] ➡️ Mengecek footer link: Discord (https://aka.ms/playwright/discord)
+2025-11-03 08:49:24,843 [INFO] ✅ Link footer valid: https://aka.ms/playwright/discord
+2025-11-03 08:49:24,847 [INFO] ➡️ Mengecek footer link: Twitter (https://twitter.com/playwrightweb)
+2025-11-03 08:49:24,847 [INFO] ✅ Link footer valid: https://twitter.com/playwrightweb
+2025-11-03 08:49:24,850 [INFO] ➡️ Mengecek footer link: LinkedIn (https://www.linkedin.com/company/playwrightweb)
+2025-11-03 08:49:24,851 [INFO] ✅ Link footer valid: https://www.linkedin.com/company/playwrightweb
+2025-11-03 08:49:24,855 [INFO] ➡️ Mengecek footer link: GitHub (https://github.com/microsoft/playwright-python)
+2025-11-03 08:49:24,855 [INFO] ✅ Link footer valid: https://github.com/microsoft/playwright-python
+2025-11-03 08:49:24,858 [INFO] ➡️ Mengecek footer link: YouTube (https://www.youtube.com/channel/UC46Zj8pDH5tDosqm1gd7WTg)
+2025-11-03 08:49:24,858 [INFO] ✅ Link footer valid: https://www.youtube.com/channel/UC46Zj8pDH5tDosqm1gd7WTg
+2025-11-03 08:49:24,862 [INFO] ➡️ Mengecek footer link: Blog (https://dev.to/playwright)
+2025-11-03 08:49:24,862 [INFO] ✅ Link footer valid: https://dev.to/playwright
+2025-11-03 08:49:24,866 [INFO] ➡️ Mengecek footer link: Ambassadors (/python/community/ambassadors)
+2025-11-03 08:49:24,866 [INFO] ✅ Link footer valid: /python/community/ambassadors
+2025-11-03 08:49:25,032 [INFO] 📸 Screenshot footer tersimpan.
+2025-11-03 08:49:25,032 [INFO] 🎉 Semua tautan footer berhasil diverifikasi.
+2025-11-03 08:49:26,555 [INFO] 🌐 Membuka: https://playwright.dev
+2025-11-03 08:49:27,238 [INFO] 📄 Judul halaman: Fast and reliable end-to-end testing for modern web apps | Playwright
+2025-11-03 08:49:27,238 [INFO] ✅ [PASS] https://playwright.dev - Judul cocok.
+2025-11-03 08:49:27,238 [INFO] ------------------------------------------------------------
+2025-11-03 08:49:27,739 [INFO] Membuka halaman: https://w3schools.com
+2025-11-03 08:49:29,536 [INFO] Title halaman: W3Schools Online Web Tutorials
+2025-11-03 08:49:29,552 [INFO] ✅ https://w3schools.com berisi teks 'W3Schools' seperti yang diharapkan.
+2025-11-03 08:49:38,739 [INFO] 🌐 Membuka: https://w3schools.com
+2025-11-03 08:49:39,880 [INFO] 📄 Judul halaman: W3Schools Online Web Tutorials
+2025-11-03 08:49:39,880 [INFO] ✅ [PASS] https://w3schools.com - Judul cocok.
+2025-11-03 08:49:39,880 [INFO] ------------------------------------------------------------
+2025-11-03 08:49:40,740 [INFO] 🌐 Membuka: https://python.org
+2025-11-03 08:49:41,606 [INFO] 📄 Judul halaman: Welcome to Python.org
+2025-11-03 08:49:41,606 [INFO] ✅ [PASS] https://python.org - Judul cocok.
+2025-11-03 08:49:41,606 [INFO] ------------------------------------------------------------
