@@ -4,39 +4,29 @@ from playwright.sync_api import sync_playwright, expect
 @pytest.mark.waitbutton
 def test_wait_for_button_enabled():
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False, slow_mo=400)
+        browser = p.chromium.launch(headless=False)
         page = browser.new_page()
+        page.goto("https://www.lambdatest.com/selenium-playground/dynamic-data-loading-demo")
 
-        # 1️⃣ Buka halaman kosong
-        page.goto("about:blank")
+        # Pastikan tombol ada
+        button = page.locator("#save")
+        expect(button).to_be_visible()
 
-        # 2️⃣ Sisipkan HTML demo secara langsung
-        html_content = """
-        <html>
-        <body>
-            <h2>Button Enable Test</h2>
-            <button id="myBtn" disabled>Click Me</button>
-            <script>
-                // Tombol akan aktif setelah 3 detik
-                setTimeout(() => {
-                    document.getElementById('myBtn').disabled = false;
-                }, 3000);
-            </script>
-        </body>
-        </html>
-        """
-        page.set_content(html_content)
-
-        # 3️⃣ Ambil tombol
-        button = page.locator("#myBtn")
-
-        # 4️⃣ Pastikan awalnya disabled
+        # Simulasikan: tombol dinonaktifkan dulu
+        page.evaluate("document.querySelector('#save').disabled = true")
         expect(button).to_be_disabled()
 
-        # 5️⃣ Tunggu tombol jadi enabled
-        expect(button).to_be_enabled(timeout=5000)
+        # Setelah 3 detik, tombol diaktifkan
+        page.evaluate("setTimeout(() => document.querySelector('#save').disabled = false, 3000)")
 
-        # 6️⃣ Klik tombol setelah aktif
+        # Tunggu sampai tombol aktif
+        page.wait_for_function("!document.querySelector('#save').disabled")
+
+        # Verifikasi tombol aktif
+        expect(button).to_be_enabled()
+
+        # Klik tombol setelah aktif
         button.click()
+        print("✅ Tombol berhasil diklik setelah aktif")
 
         browser.close()

@@ -1,28 +1,27 @@
 import pytest
-import re
 from playwright.sync_api import sync_playwright, expect
+import os
 
-@pytest.mark.navigation
+@pytest.mark.waitnavigation
 def test_wait_for_navigation():
+    base_path = f"file://{os.getcwd()}/pages/wait_navigation_start.html"
+
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False, slow_mo=500)
+        browser = p.chromium.launch(headless=False)
         page = browser.new_page()
 
-        # 1️⃣ Buka halaman utama
-        page.goto("https://www.w3schools.com/")
-        expect(page).to_have_title(re.compile("W3Schools"))
-        print("✅ Halaman utama terbuka")
+        # Buka halaman awal
+        page.goto(base_path)
+        expect(page).to_have_title("Wait for Navigation - Start")
 
-        # 2️⃣ Klik link dan tunggu navigasi ke halaman HTML
-        with page.expect_navigation(url=re.compile(".*/html/.*"), wait_until="domcontentloaded", timeout=60000):
-            page.get_by_role("link", name="Learn HTML").click()
+        # Klik tombol dan tunggu navigasi selesai
+        with page.expect_navigation(timeout=5000):
+            page.click("#goBtn")
 
-        print("✅ Navigasi berhasil ke halaman HTML")
+        # Verifikasi halaman tujuan sudah terbuka
+        expect(page).to_have_title("Halaman Tujuan")
+        expect(page.locator("h2")).to_have_text("Selamat Datang di Halaman Tujuan 🎉")
 
-        # 3️⃣ Verifikasi halaman tujuan
-        expect(page).to_have_url(re.compile(".*/html/.*"))
-        heading = page.locator("h1.with-bookmark")
-        expect(heading).to_be_visible()
-        print("✅ Halaman HTML Tutorial tampil dengan heading utama")
+        print("✅ Navigasi berhasil ke halaman tujuan!")
 
         browser.close()

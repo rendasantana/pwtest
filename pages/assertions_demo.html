@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Assertions Demo</title>
+  </head>
+  <body style="font-family: sans-serif; text-align: center; margin-top: 50px">
+    <h2>Assertions Advanced Demo</h2>
+
+    <input type="text" id="nameInput" placeholder="Masukkan nama" />
+    <button id="submitBtn">Submit</button>
+    <p id="greeting"></p>
+
+    <ul id="fruitsList">
+      <li class="fruit">Apple</li>
+      <li class="fruit">Banana</li>
+      <li class="fruit">Cherry</li>
+    </ul>
+
+    <script>
+      document.getElementById("submitBtn").onclick = function () {
+        const name = document.getElementById("nameInput").value;
+        document.getElementById("greeting").textContent = `Halo, ${name}!`;
+      };
+    </script>
+  </body>
+</html>

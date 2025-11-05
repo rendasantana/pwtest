@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>iFrame Content</title>
+  </head>
+  <body style="font-family: sans-serif; text-align: center; margin-top: 50px">
+    <h3>Ini konten dalam iFrame 🎯</h3>
+    <button id="frameBtn">Klik Aku</button>
+    <p id="frameResult"></p>
+
+    <script>
+      document.getElementById("frameBtn").onclick = function () {
+        document.getElementById("frameResult").textContent =
+          "Tombol di iFrame berhasil diklik!";
+      };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Wait for Element Disappear Demo</title>
+    <script>
+      function loadData() {
+        const loading = document.getElementById("loading");
+        const result = document.getElementById("result");
+        loading.style.display = "block";
+        result.style.display = "none";
+
+        setTimeout(() => {
+          loading.style.display = "none";
+          result.style.display = "block";
+          result.textContent = "Data berhasil dimuat ✅";
+        }, 3000);
+      }
+    </script>
+  </head>
+  <body style="font-family: sans-serif; text-align: center; margin-top: 80px">
+    <h2>Latihan 17: Wait for Element to Disappear</h2>
+    <button id="loadBtn" onclick="loadData()">Muat Data</button>
+    <p id="loading" style="display: none; color: orange">Loading...</p>
+    <p id="result" style="display: none; color: green"></p>
+  </body>
+</html>

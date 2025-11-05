@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Wait for Response Demo</title>
+    <script>
+      async function getData() {
+        const status = document.getElementById("status");
+        const result = document.getElementById("result");
+
+        status.textContent = "⏳ Mengambil data...";
+        result.textContent = "";
+
+        // Simulasi API request delay 2 detik
+        await new Promise((resolve) => setTimeout(resolve, 2000));
+
+        // Kirim request palsu ke dummy API JSONPlaceholder
+        const res = await fetch("https://jsonplaceholder.typicode.com/posts/1");
+        const data = await res.json();
+
+        status.textContent = "✅ Data diterima!";
+        result.textContent = `Judul: ${data.title}`;
+      }
+    </script>
+  </head>
+  <body style="font-family: sans-serif; text-align: center; margin-top: 80px">
+    <h2>Latihan 19: Wait for Response</h2>
+    <button id="fetchBtn" onclick="getData()">Ambil Data</button>
+    <p id="status" style="margin-top: 20px; color: orange"></p>
+    <p id="result" style="color: green"></p>
+  </body>
+</html>

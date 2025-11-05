@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Wait for Element Appear Demo</title>
+    <script>
+      function showText() {
+        const loading = document.getElementById("loading");
+        loading.style.display = "block";
+        setTimeout(() => {
+          const msg = document.createElement("p");
+          msg.textContent = "Data berhasil dimuat ✅";
+          loading.appendChild(msg);
+        }, 3000);
+      }
+    </script>
+  </head>
+  <body style="font-family: sans-serif; text-align: center; margin-top: 80px">
+    <h2>Latihan 16: Wait for Element to Appear</h2>
+    <button id="loadBtn" onclick="showText()">Muat Data</button>
+    <div id="loading" style="display: none; margin-top: 20px"></div>
+  </body>
+</html>

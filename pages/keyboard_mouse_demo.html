@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Keyboard & Mouse Demo</title>
+  </head>
+  <body style="font-family: sans-serif; text-align: center; margin-top: 50px">
+    <h2>Latihan Keyboard & Mouse</h2>
+
+    <input type="text" id="inputField" placeholder="Ketik nama kamu" />
+    <button id="submitBtn">Submit</button>
+    <p id="result"></p>
+
+    <div
+      id="dragSource"
+      style="width: 100px; height: 100px; background: orange; margin: 20px auto"
+    >
+      Drag Me
+    </div>
+    <div
+      id="dropTarget"
+      style="
+        width: 100px;
+        height: 100px;
+        background: lightgray;
+        margin: 20px auto;
+      "
+    >
+      Drop Here
+    </div>
+
+    <script>
+      // Submit button
+      document.getElementById("submitBtn").onclick = function () {
+        const value = document.getElementById("inputField").value;
+        document.getElementById("result").textContent = "Halo, " + value + "!";
+      };
+
+      // Drag & Drop
+      const dragSource = document.getElementById("dragSource");
+      const dropTarget = document.getElementById("dropTarget");
+
+      dragSource.addEventListener("dragstart", (e) =>
+        e.dataTransfer.setData("text/plain", "dragged")
+      );
+      dropTarget.addEventListener("dragover", (e) => e.preventDefault());
+      dropTarget.addEventListener("drop", (e) => {
+        e.preventDefault();
+        dropTarget.textContent = "Dropped!";
+      });
+    </script>
+  </body>
+</html>

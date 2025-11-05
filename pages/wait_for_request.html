@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Wait for Request Demo</title>
+    <script>
+      async function sendData() {
+        const status = document.getElementById("status");
+        const result = document.getElementById("result");
+
+        status.textContent = "⏳ Mengirim request...";
+        result.textContent = "";
+
+        // Simulasi delay 1 detik
+        await new Promise((resolve) => setTimeout(resolve, 1000));
+
+        // Kirim request ke dummy API
+        const res = await fetch("https://jsonplaceholder.typicode.com/posts", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            name: "Renda",
+            action: "latihan_wait_for_request",
+          }),
+        });
+
+        const data = await res.json();
+        status.textContent = "✅ Request terkirim!";
+        result.textContent = `ID data baru: ${data.id}`;
+      }
+    </script>
+  </head>
+  <body style="font-family: sans-serif; text-align: center; margin-top: 80px">
+    <h2>Latihan 20: Wait for Request</h2>
+    <button id="sendBtn" onclick="sendData()">Kirim Request</button>
+    <p id="status" style="color: orange; margin-top: 20px"></p>
+    <p id="result" style="color: green"></p>
+  </body>
+</html>
