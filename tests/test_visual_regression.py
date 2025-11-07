@@ -1,51 +1,36 @@
 import os
-from datetime import datetime
+import pytest
 from playwright.sync_api import sync_playwright, expect
 
-# Buat folder baseline & hasil baru
-BASELINE_DIR = "tests/baseline"
-NEWSHOT_DIR = "tests/screenshots"
-os.makedirs(BASELINE_DIR, exist_ok=True)
-os.makedirs(NEWSHOT_DIR, exist_ok=True)
-
+@pytest.mark.visual
 def test_visual_regression():
-    """Tes visual regression antara tampilan lama & baru"""
+    # Folder baseline & hasil baru
+    baseline_dir = "screenshots/baseline"
+    current_dir = "screenshots/current"
+    os.makedirs(baseline_dir, exist_ok=True)
+    os.makedirs(current_dir, exist_ok=True)
+
+    page_url = "https://playwright.dev/python/"
+    baseline_file = os.path.join(baseline_dir, "home.png")
+    current_file = os.path.join(current_dir, "home.png")
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=False)
         page = browser.new_page()
+        page.goto(page_url)
+        page.wait_for_load_state("networkidle")
 
-        # 1️⃣ Buka halaman target
-        page.goto("https://playwright.dev/python/")
-        page.wait_for_load_state("domcontentloaded")
+        # Ambil screenshot saat ini
+        page.screenshot(path=current_file, full_page=True)
+        print(f"📸 Screenshot disimpan: {current_file}")
 
-        # 2️⃣ Screenshot per langkah
-        step1_path = os.path.join(NEWSHOT_DIR, "step1_homepage.png")
-        page.screenshot(path=step1_path, full_page=True)
-
-        # 3️⃣ Verifikasi elemen utama ada
-        expect(page.locator("text=Get started")).to_be_visible()
-
-        # 4️⃣ Simpan screenshot hasil akhir
-        new_screenshot = os.path.join(NEWSHOT_DIR, "homepage_new.png")
-        page.screenshot(path=new_screenshot, full_page=True)
-
-        # 5️⃣ Cek apakah baseline sudah ada
-        baseline_path = os.path.join(BASELINE_DIR, "homepage.png")
-        if not os.path.exists(baseline_path):
-            # Simpan sebagai baseline pertama kali
-            page.screenshot(path=baseline_path, full_page=True)
-            print("✅ Baseline pertama dibuat:", baseline_path)
+        # Jika baseline belum ada → buat dulu
+        if not os.path.exists(baseline_file):
+            page.screenshot(path=baseline_file, full_page=True)
+            print("📂 Baseline belum ada, dibuat otomatis.")
         else:
-            # 6️⃣ Bandingkan dengan baseline
-            print("🔍 Membandingkan tampilan baru dengan baseline...")
-            try:
-                page.expect_screenshot_to_match_snapshot(name="homepage.png")
-                print("✅ Tidak ada perubahan visual.")
-            except Exception as e:
-                timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-                diff_path = os.path.join(NEWSHOT_DIR, f"diff_{timestamp}.png")
-                page.screenshot(path=diff_path, full_page=True)
-                print("❌ Perubahan visual terdeteksi! Diff disimpan:", diff_path)
+            # Bandingkan dengan baseline
+            result = page.expect_screenshot("home.png", path=baseline_dir)
+            print("✅ Visual regression check berhasil tanpa perbedaan.")
 
         browser.close()

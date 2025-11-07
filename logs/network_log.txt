@@ -1,0 +1,2 @@
+➡️ Request: GET https://example.com/
+⬅️ Response: 200 https://example.com/

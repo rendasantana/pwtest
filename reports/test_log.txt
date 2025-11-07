@@ -1184,3 +1184,163 @@ Call log:
 2025-11-05 11:45:13,878 [INFO] 📄 Judul halaman: Welcome to Python.org
 2025-11-05 11:45:13,878 [INFO] ✅ [PASS] https://python.org - Judul cocok.
 2025-11-05 11:45:13,878 [INFO] ------------------------------------------------------------
+2025-11-06 16:31:57,528 [INFO] Membuka halaman: https://playwright.dev
+2025-11-06 16:31:58,280 [INFO] Title halaman: Playwright
+2025-11-06 16:31:58,299 [INFO] ✅ https://playwright.dev berisi teks 'Playwright' seperti yang diharapkan.
+2025-11-06 16:32:58,694 [WARNING] Gagal ambil screenshot: Page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+
+2025-11-06 16:33:12,196 [INFO] 🔹 Memulai pengujian navigasi utama...
+2025-11-06 16:33:13,883 [INFO] ✅ Halaman utama Playwright Python dibuka.
+2025-11-06 16:33:13,898 [INFO] ✅ Judul halaman sesuai (regex cocok).
+2025-11-06 16:33:13,898 [INFO] 🔍 Mengecek tautan: Get started
+2025-11-06 16:33:13,963 [INFO] ✅ URL berisi 'intro' sesuai ekspektasi.
+2025-11-06 16:33:15,065 [INFO] ↩️ Kembali ke halaman utama untuk cek tautan berikutnya.
+2025-11-06 16:33:15,066 [INFO] 🔍 Mengecek tautan: API
+2025-11-06 16:33:15,128 [INFO] ✅ URL berisi 'api' sesuai ekspektasi.
+2025-11-06 16:33:16,183 [INFO] ↩️ Kembali ke halaman utama untuk cek tautan berikutnya.
+2025-11-06 16:33:16,184 [INFO] 🔍 Mengecek tautan: Guides
+2025-11-06 16:33:16,739 [INFO] [ERROR] Tidak dapat menemukan link: Guides
+2025-11-06 16:33:16,937 [INFO] 📸 Screenshot error disimpan: reports/screenshots/FAILED_NAV_20251106_163312.png
+2025-11-06 16:33:17,157 [INFO] 🔹 Memulai pengujian tautan footer...
+2025-11-06 16:33:18,251 [INFO] 🔍 Ditemukan 12 tautan di footer.
+2025-11-06 16:33:18,260 [INFO] ➡️ Mengecek footer link: Getting started (/python/docs/intro)
+2025-11-06 16:33:18,260 [INFO] ✅ Link footer valid: /python/docs/intro
+2025-11-06 16:33:18,266 [INFO] ➡️ Mengecek footer link: Playwright Training (https://learn.microsoft.com/en-us/training/modules/build-with-playwright/)
+2025-11-06 16:33:18,266 [INFO] ✅ Link footer valid: https://learn.microsoft.com/en-us/training/modules/build-with-playwright/
+2025-11-06 16:33:18,272 [INFO] ➡️ Mengecek footer link: Learn Videos (/python/community/learn-videos)
+2025-11-06 16:33:18,272 [INFO] ✅ Link footer valid: /python/community/learn-videos
+2025-11-06 16:33:18,277 [INFO] ➡️ Mengecek footer link: Feature Videos (/python/community/feature-videos)
+2025-11-06 16:33:18,278 [INFO] ✅ Link footer valid: /python/community/feature-videos
+2025-11-06 16:33:18,282 [INFO] ➡️ Mengecek footer link: Stack Overflow (https://stackoverflow.com/questions/tagged/playwright)
+2025-11-06 16:33:18,282 [INFO] ✅ Link footer valid: https://stackoverflow.com/questions/tagged/playwright
+2025-11-06 16:33:18,286 [INFO] ➡️ Mengecek footer link: Discord (https://aka.ms/playwright/discord)
+2025-11-06 16:33:18,286 [INFO] ✅ Link footer valid: https://aka.ms/playwright/discord
+2025-11-06 16:33:18,290 [INFO] ➡️ Mengecek footer link: Twitter (https://twitter.com/playwrightweb)
+2025-11-06 16:33:18,290 [INFO] ✅ Link footer valid: https://twitter.com/playwrightweb
+2025-11-06 16:33:18,294 [INFO] ➡️ Mengecek footer link: LinkedIn (https://www.linkedin.com/company/playwrightweb)
+2025-11-06 16:33:18,294 [INFO] ✅ Link footer valid: https://www.linkedin.com/company/playwrightweb
+2025-11-06 16:33:18,297 [INFO] ➡️ Mengecek footer link: GitHub (https://github.com/microsoft/playwright-python)
+2025-11-06 16:33:18,297 [INFO] ✅ Link footer valid: https://github.com/microsoft/playwright-python
+2025-11-06 16:33:18,301 [INFO] ➡️ Mengecek footer link: YouTube (https://www.youtube.com/channel/UC46Zj8pDH5tDosqm1gd7WTg)
+2025-11-06 16:33:18,301 [INFO] ✅ Link footer valid: https://www.youtube.com/channel/UC46Zj8pDH5tDosqm1gd7WTg
+2025-11-06 16:33:18,304 [INFO] ➡️ Mengecek footer link: Blog (https://dev.to/playwright)
+2025-11-06 16:33:18,304 [INFO] ✅ Link footer valid: https://dev.to/playwright
+2025-11-06 16:33:18,308 [INFO] ➡️ Mengecek footer link: Ambassadors (/python/community/ambassadors)
+2025-11-06 16:33:18,308 [INFO] ✅ Link footer valid: /python/community/ambassadors
+2025-11-06 16:33:18,470 [INFO] 📸 Screenshot footer tersimpan.
+2025-11-06 16:33:18,470 [INFO] 🎉 Semua tautan footer berhasil diverifikasi.
+2025-11-06 16:33:19,418 [INFO] 🌐 Membuka: https://playwright.dev
+2025-11-06 16:33:19,855 [INFO] 📄 Judul halaman: Fast and reliable end-to-end testing for modern web apps | Playwright
+2025-11-06 16:33:19,855 [INFO] ✅ [PASS] https://playwright.dev - Judul cocok.
+2025-11-06 16:33:19,855 [INFO] ------------------------------------------------------------
+2025-11-06 16:33:20,140 [INFO] Membuka halaman: https://w3schools.com
+2025-11-06 16:34:20,291 [WARNING] Gagal ambil screenshot: Page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+
+2025-11-06 16:35:56,163 [WARNING] Gagal ambil screenshot: Page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+
+2025-11-06 16:35:56,289 [INFO] 🌐 Membuka: https://w3schools.com
+2025-11-06 16:37:26,436 [WARNING] Gagal ambil screenshot: Page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+
+2025-11-06 16:37:26,689 [INFO] 🌐 Membuka: https://python.org
+2025-11-06 16:37:27,237 [INFO] 📄 Judul halaman: Welcome to Python.org
+2025-11-06 16:37:27,237 [INFO] ✅ [PASS] https://python.org - Judul cocok.
+2025-11-06 16:37:27,237 [INFO] ------------------------------------------------------------
+2025-11-06 16:42:40,767 [INFO] Membuka halaman: https://playwright.dev
+2025-11-06 16:42:41,379 [INFO] Title halaman: Playwright
+2025-11-06 16:42:41,407 [INFO] ✅ https://playwright.dev berisi teks 'Playwright' seperti yang diharapkan.
+2025-11-06 16:43:28,301 [INFO] 🔹 Memulai pengujian navigasi utama...
+2025-11-06 16:43:30,440 [INFO] ✅ Halaman utama Playwright Python dibuka.
+2025-11-06 16:43:30,471 [INFO] ✅ Judul halaman sesuai (regex cocok).
+2025-11-06 16:43:30,471 [INFO] 🔍 Mengecek tautan: Get started
+2025-11-06 16:43:30,543 [INFO] ✅ URL berisi 'intro' sesuai ekspektasi.
+2025-11-06 16:43:31,645 [INFO] ↩️ Kembali ke halaman utama untuk cek tautan berikutnya.
+2025-11-06 16:43:31,646 [INFO] 🔍 Mengecek tautan: API
+2025-11-06 16:43:31,709 [INFO] ✅ URL berisi 'api' sesuai ekspektasi.
+2025-11-06 16:43:32,762 [INFO] ↩️ Kembali ke halaman utama untuk cek tautan berikutnya.
+2025-11-06 16:43:32,763 [INFO] 🔍 Mengecek tautan: Guides
+2025-11-06 16:43:33,331 [INFO] [ERROR] Tidak dapat menemukan link: Guides
+2025-11-06 16:43:33,547 [INFO] 📸 Screenshot error disimpan: reports/screenshots/FAILED_NAV_20251106_164328.png
+2025-11-06 16:43:33,747 [INFO] 🔹 Memulai pengujian tautan footer...
+2025-11-06 16:43:34,796 [INFO] 🔍 Ditemukan 12 tautan di footer.
+2025-11-06 16:43:34,834 [INFO] ➡️ Mengecek footer link: Getting started (/python/docs/intro)
+2025-11-06 16:43:34,834 [INFO] ✅ Link footer valid: /python/docs/intro
+2025-11-06 16:43:34,857 [INFO] ➡️ Mengecek footer link: Playwright Training (https://learn.microsoft.com/en-us/training/modules/build-with-playwright/)
+2025-11-06 16:43:34,858 [INFO] ✅ Link footer valid: https://learn.microsoft.com/en-us/training/modules/build-with-playwright/
+2025-11-06 16:43:34,896 [INFO] ➡️ Mengecek footer link: Learn Videos (/python/community/learn-videos)
+2025-11-06 16:43:34,897 [INFO] ✅ Link footer valid: /python/community/learn-videos
+2025-11-06 16:43:34,935 [INFO] ➡️ Mengecek footer link: Feature Videos (/python/community/feature-videos)
+2025-11-06 16:43:34,935 [INFO] ✅ Link footer valid: /python/community/feature-videos
+2025-11-06 16:43:34,954 [INFO] ➡️ Mengecek footer link: Stack Overflow (https://stackoverflow.com/questions/tagged/playwright)
+2025-11-06 16:43:34,954 [INFO] ✅ Link footer valid: https://stackoverflow.com/questions/tagged/playwright
+2025-11-06 16:43:34,962 [INFO] ➡️ Mengecek footer link: Discord (https://aka.ms/playwright/discord)
+2025-11-06 16:43:34,962 [INFO] ✅ Link footer valid: https://aka.ms/playwright/discord
+2025-11-06 16:43:34,966 [INFO] ➡️ Mengecek footer link: Twitter (https://twitter.com/playwrightweb)
+2025-11-06 16:43:34,966 [INFO] ✅ Link footer valid: https://twitter.com/playwrightweb
+2025-11-06 16:43:34,969 [INFO] ➡️ Mengecek footer link: LinkedIn (https://www.linkedin.com/company/playwrightweb)
+2025-11-06 16:43:34,969 [INFO] ✅ Link footer valid: https://www.linkedin.com/company/playwrightweb
+2025-11-06 16:43:34,979 [INFO] ➡️ Mengecek footer link: GitHub (https://github.com/microsoft/playwright-python)
+2025-11-06 16:43:34,979 [INFO] ✅ Link footer valid: https://github.com/microsoft/playwright-python
+2025-11-06 16:43:34,987 [INFO] ➡️ Mengecek footer link: YouTube (https://www.youtube.com/channel/UC46Zj8pDH5tDosqm1gd7WTg)
+2025-11-06 16:43:34,987 [INFO] ✅ Link footer valid: https://www.youtube.com/channel/UC46Zj8pDH5tDosqm1gd7WTg
+2025-11-06 16:43:34,992 [INFO] ➡️ Mengecek footer link: Blog (https://dev.to/playwright)
+2025-11-06 16:43:34,992 [INFO] ✅ Link footer valid: https://dev.to/playwright
+2025-11-06 16:43:34,999 [INFO] ➡️ Mengecek footer link: Ambassadors (/python/community/ambassadors)
+2025-11-06 16:43:35,000 [INFO] ✅ Link footer valid: /python/community/ambassadors
+2025-11-06 16:43:35,206 [INFO] 📸 Screenshot footer tersimpan.
+2025-11-06 16:43:35,206 [INFO] 🎉 Semua tautan footer berhasil diverifikasi.
+2025-11-06 16:43:36,098 [INFO] 🌐 Membuka: https://playwright.dev
+2025-11-06 16:43:36,541 [INFO] 📄 Judul halaman: Fast and reliable end-to-end testing for modern web apps | Playwright
+2025-11-06 16:43:36,541 [INFO] ✅ [PASS] https://playwright.dev - Judul cocok.
+2025-11-06 16:43:36,541 [INFO] ------------------------------------------------------------
+2025-11-06 16:43:36,825 [INFO] Membuka halaman: https://w3schools.com
+2025-11-06 16:45:44,344 [WARNING] Gagal ambil screenshot: Page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+
+2025-11-06 16:45:44,469 [INFO] 🌐 Membuka: https://w3schools.com
+2025-11-06 16:47:14,624 [WARNING] Gagal ambil screenshot: Page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+
+2025-11-06 16:47:14,962 [INFO] 🌐 Membuka: https://python.org
+2025-11-06 16:47:15,828 [INFO] 📄 Judul halaman: Welcome to Python.org
+2025-11-06 16:47:15,828 [INFO] ✅ [PASS] https://python.org - Judul cocok.
+2025-11-06 16:47:15,828 [INFO] ------------------------------------------------------------
+2025-11-07 16:10:35,740 [ERROR] ❌ Test gagal: test_example_fail[chromium]
+2025-11-07 16:10:35,913 [INFO] 📸 Screenshot disimpan di reports/screenshots/test_example_fail[chromium]_20251107_161035.png
+2025-11-07 16:23:21,349 [INFO] 📸 Screenshot disimpan di reports/screenshots/test_video_fail[chromium]_20251107_162321.png
+2025-11-07 16:23:21,351 [INFO] 🎥 Video disimpan: reports/videos/c3ac1c4f7514b32b095d7e129cd44acc.webm
+2025-11-07 16:24:57,663 [INFO] 📸 Screenshot disimpan di reports/screenshots/test_video_fail[chromium]_20251107_162457.png
+2025-11-07 16:24:57,665 [INFO] 🎥 Video disimpan: reports/videos/23ab9f7cc793a423f5282d783378abef.webm
+2025-11-07 16:27:02,237 [INFO] 📸 Screenshot disimpan di reports/screenshots/test_video_fail[chromium]_20251107_162702.png
+2025-11-07 16:27:02,239 [INFO] 🎥 Video disimpan di reports/videos/15ab6bd4e7918bcbfe6d9112e9324157.webm
+2025-11-07 16:29:49,223 [INFO] 📸 Screenshot disimpan di reports/screenshots/test_video_fail[chromium]_20251107_162949.png
+2025-11-07 16:29:49,224 [INFO] 🎥 Video disimpan di reports/videos/35898d53b6778f0a13f468d8ef3fe041.webm
+2025-11-07 16:30:15,344 [INFO] 📸 Screenshot disimpan di reports/screenshots/test_video_fail[chromium]_20251107_163015.png
+2025-11-07 16:30:15,345 [INFO] 🎥 Video disimpan di reports/videos/7b5874825dbc052e575afff0e109c8f1.webm
+2025-11-07 16:33:01,003 [INFO] 📸 Screenshot disimpan di reports/screenshots/test_video_fail[chromium]_20251107_163300.png
+2025-11-07 16:33:01,004 [INFO] 🎥 Video disimpan di reports/videos/7250eea5965e6d7f310bef680eb360cc.webm
+2025-11-07 16:34:19,433 [INFO] 📸 Screenshot disimpan di reports/screenshots/test_video_fail[chromium]_20251107_163419.png
+2025-11-07 16:34:19,436 [INFO] 🎥 Video disimpan di reports/videos/72710b113acdee021bb1e35bd3e4262e.webm
+2025-11-07 16:35:57,874 [INFO] 📸 Screenshot disimpan di reports/screenshots/test_video_fail[chromium]_20251107_163557.png
+2025-11-07 16:35:57,875 [INFO] 🎥 Video disimpan di reports/videos/d8723f60af8a405a4dce6e0b644b4af7.webm

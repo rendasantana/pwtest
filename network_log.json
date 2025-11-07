@@ -1,0 +1,15 @@
+[
+    {
+        "type": "request",
+        "url": "https://reqres.in/api/users?page=2",
+        "method": "GET",
+        "timestamp": "2025-11-06 11:46:05"
+    },
+    {
+        "type": "response",
+        "url": "https://reqres.in/api/users?page=2",
+        "status": 200,
+        "timestamp": "2025-11-06 11:46:06",
+        "size": 1570
+    }
+]

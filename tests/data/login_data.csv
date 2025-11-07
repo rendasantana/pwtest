@@ -1,0 +1,5 @@
+username,password,expected_text
+admin,12345,Login successful
+user,wrongpass,Invalid password
+,12345,Username required
+admin,,Password required

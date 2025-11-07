@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Multiple File Upload Demo</title>
+  </head>
+  <body>
+    <h2>Upload Multiple Files</h2>
+    <input type="file" id="multiUpload" multiple />
+    <ul id="fileList"></ul>
+
+    <script>
+      const input = document.getElementById("multiUpload");
+      const list = document.getElementById("fileList");
+
+      input.addEventListener("change", () => {
+        list.innerHTML = "";
+        for (const file of input.files) {
+          const li = document.createElement("li");
+          li.textContent = file.name;
+          list.appendChild(li);
+        }
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>File Upload Demo</title>
+    <style>
+      body {
+        font-family: Arial;
+        padding: 40px;
+      }
+      h2 {
+        color: #333;
+      }
+      button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      #uploadedFileName {
+        margin-top: 20px;
+        color: green;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>File Upload Demo</h2>
+    <input
+      type="file"
+      id="fileInput"
+      style="display: none"
+      onchange="showFileName(event)"
+    />
+    <button id="uploadButton">Upload File</button>
+    <div id="uploadedFileName"></div>
+
+    <script>
+      const uploadBtn = document.getElementById("uploadButton");
+      const fileInput = document.getElementById("fileInput");
+      const uploadedName = document.getElementById("uploadedFileName");
+
+      uploadBtn.addEventListener("click", () => fileInput.click());
+
+      function showFileName(event) {
+        const file = event.target.files[0];
+        if (file) {
+          uploadedName.textContent = file.name;
+        }
+      }
+    </script>
+  </body>
+</html>
