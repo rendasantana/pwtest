@@ -100,95 +100,101 @@ def pytest_runtest_makereport(item, call):
                 formatted.append(f'<span style="color:{color};">{line.strip()}</span>')
             log_html = "<br>".join(formatted[-60:])
 
-        # --- HTML lengkap ---
+    # --- HTML per test ---
     html_block = f"""
-<style>
-    .summary-box {{
-        background:#222;
-        border-left:6px solid {'#28a745' if rep.passed else '#dc3545'};
-        color:#fff;
-        padding:8px 12px;
-        border-radius:8px;
-        font-family:Segoe UI, sans-serif;
-        margin-top:10px;
-    }}
-    .toggle-detail {{
-        background:#0078d4;
-        color:white;
-        border:none;
-        border-radius:6px;
-        padding:4px 10px;
-        cursor:pointer;
-        font-size:12px;
-    }}
-    .detail-content {{
-        display:none;
-        margin-top:10px;
-        border:1px solid #333;
-        border-radius:8px;
-        padding:10px;
-        background:#111;
-    }}
-    .flex-container {{
-        display:flex;
-        flex-wrap:wrap;
-        gap:15px;
-        justify-content:space-between;
-    }}
-    .flex-item {{
-        flex:1;
-        min-width:250px;
-        background:#1b1b1b;
-        padding:8px;
-        border-radius:8px;
-        color:#dcdcdc;
-    }}
-</style>
-
 <div class="summary-box">
-    <b>{status_icon} {item.name}</b> &nbsp;&nbsp; ⏱ {duration}
-    <button id="btn-{item.name}" class="toggle-detail" onclick="toggleDetail('{item.name}')">Lihat Detail ⬇️</button>
+  <b>{status_icon} {item.name}</b> &nbsp;&nbsp; ⏱ {duration}
+  <button id="btn-{item.name}" class="toggle-detail" onclick="toggleDetail('{item.name}')">
+    Lihat Detail ⬇️
+  </button>
 </div>
 
 <div id="detail-{item.name}" class="detail-content">
-    <div class="flex-container">
-        <div class="flex-item" style="text-align:center;">
-            <b>📸 Screenshot:</b><br>
-            <img src="data:image/png;base64,{encoded_img}" style="max-width:100%; border-radius:8px;">
-        </div>
-
-        <div class="flex-item" style="text-align:center;">
-            <b>🎥 Video Test:</b><br>
-            <video width="100%" controls style="border-radius:8px;">
-                <source src="data:video/webm;base64,{encoded_video}" type="video/webm">
-                Browser tidak mendukung video.
-            </video>
-        </div>
-
-        <div class="flex-item">
-            <b>🧾 Log:</b><br>
-            <div style="font-family:monospace; max-height:200px; overflow:auto;">{log_html}</div>
-        </div>
+  <div class="flex-container">
+    <div class="flex-item" style="text-align:center;">
+      <b>📸 Screenshot:</b><br>
+      <img src="data:image/png;base64,{encoded_img}" style="max-width:100%; border-radius:8px;">
     </div>
+
+    <div class="flex-item" style="text-align:center;">
+      <b>🎥 Video Test:</b><br>
+      <video width="100%" controls style="border-radius:8px;">
+        <source src="data:video/webm;base64,{encoded_video}" type="video/webm">
+        Browser tidak mendukung video.
+      </video>
+    </div>
+
+    <div class="flex-item">
+      <b>🧾 Log:</b><br>
+      <div style="font-family:monospace; max-height:200px; overflow:auto;">{log_html}</div>
+    </div>
+  </div>
 </div>
-
-<script>
-    window.toggleDetail = function(name) {{
-        const el = document.getElementById('detail-' + name);
-        const btn = document.getElementById('btn-' + name);
-        if (!el || !btn) return;
-
-        if (el.style.display === 'none' || el.style.display === '') {{
-            el.style.display = 'block';
-            btn.innerHTML = 'Sembunyikan Detail ⬆️';
-        }} else {{
-            el.style.display = 'none';
-            btn.innerHTML = 'Lihat Detail ⬇️';
-        }}
-    }};
-</script>
 """
 
     extras = getattr(rep, "extras", [])
     extras.append(pytest_html.extras.html(html_block))
     rep.extras = extras
+
+
+# === Tambahkan JS + CSS Global (versi kompatibel pytest-html 4.x) ===
+def pytest_html_results_summary(prefix, summary, postfix):
+    prefix.extend([ """
+    <script>
+    function toggleDetail(name) {
+      const el = document.getElementById('detail-' + name);
+      const btn = document.getElementById('btn-' + name);
+      if (!el || !btn) return;
+      const visible = el.style.display === 'block';
+      el.style.display = visible ? 'none' : 'block';
+      btn.innerHTML = visible ? 'Lihat Detail ⬇️' : 'Sembunyikan Detail ⬆️';
+    }
+    </script>
+
+    <style>
+    .summary-box {
+      background:#222;
+      border-left:6px solid #0078d4;
+      color:#fff;
+      padding:8px 12px;
+      border-radius:8px;
+      font-family:Segoe UI, sans-serif;
+      margin-top:10px;
+    }
+    .toggle-detail {
+      background:#0078d4;
+      color:white;
+      border:none;
+      border-radius:6px;
+      padding:4px 10px;
+      cursor:pointer;
+      font-size:12px;
+      transition: background-color 0.2s ease;
+    }
+    .toggle-detail:hover {
+      background:#005ea6;
+    }
+    .detail-content {
+      display:none;
+      margin-top:10px;
+      border:1px solid #333;
+      border-radius:8px;
+      padding:10px;
+      background:#111;
+    }
+    .flex-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap:15px;
+      justify-content:space-between;
+    }
+    .flex-item {
+      flex:1;
+      min-width:250px;
+      background:#1b1b1b;
+      padding:8px;
+      border-radius:8px;
+      color:#dcdcdc;
+    }
+    </style>
+    """ ])

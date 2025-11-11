@@ -517,3 +517,535 @@ Call log:
 2025-11-08 14:17:07,633 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
 2025-11-08 14:17:07,636 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
 2025-11-08 14:17:07,638 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:46,541 [INFO] 🔹 Memulai pengujian tautan footer...
+2025-11-11 13:27:47,745 [INFO] 🔍 Ditemukan 12 tautan di footer.
+2025-11-11 13:27:47,754 [INFO] ➡️ Mengecek footer link: Getting started (/python/docs/intro)
+2025-11-11 13:27:47,754 [INFO] ✅ Link footer valid: /python/docs/intro
+2025-11-11 13:27:47,761 [INFO] ➡️ Mengecek footer link: Playwright Training (https://learn.microsoft.com/en-us/training/modules/build-with-playwright/)
+2025-11-11 13:27:47,761 [INFO] ✅ Link footer valid: https://learn.microsoft.com/en-us/training/modules/build-with-playwright/
+2025-11-11 13:27:47,776 [INFO] ➡️ Mengecek footer link: Learn Videos (/python/community/learn-videos)
+2025-11-11 13:27:47,776 [INFO] ✅ Link footer valid: /python/community/learn-videos
+2025-11-11 13:27:47,786 [INFO] ➡️ Mengecek footer link: Feature Videos (/python/community/feature-videos)
+2025-11-11 13:27:47,786 [INFO] ✅ Link footer valid: /python/community/feature-videos
+2025-11-11 13:27:47,792 [INFO] ➡️ Mengecek footer link: Stack Overflow (https://stackoverflow.com/questions/tagged/playwright)
+2025-11-11 13:27:47,793 [INFO] ✅ Link footer valid: https://stackoverflow.com/questions/tagged/playwright
+2025-11-11 13:27:47,797 [INFO] ➡️ Mengecek footer link: Discord (https://aka.ms/playwright/discord)
+2025-11-11 13:27:47,797 [INFO] ✅ Link footer valid: https://aka.ms/playwright/discord
+2025-11-11 13:27:47,805 [INFO] ➡️ Mengecek footer link: Twitter (https://twitter.com/playwrightweb)
+2025-11-11 13:27:47,805 [INFO] ✅ Link footer valid: https://twitter.com/playwrightweb
+2025-11-11 13:27:47,809 [INFO] ➡️ Mengecek footer link: LinkedIn (https://www.linkedin.com/company/playwrightweb)
+2025-11-11 13:27:47,809 [INFO] ✅ Link footer valid: https://www.linkedin.com/company/playwrightweb
+2025-11-11 13:27:47,813 [INFO] ➡️ Mengecek footer link: GitHub (https://github.com/microsoft/playwright-python)
+2025-11-11 13:27:47,813 [INFO] ✅ Link footer valid: https://github.com/microsoft/playwright-python
+2025-11-11 13:27:47,819 [INFO] ➡️ Mengecek footer link: YouTube (https://www.youtube.com/channel/UC46Zj8pDH5tDosqm1gd7WTg)
+2025-11-11 13:27:47,820 [INFO] ✅ Link footer valid: https://www.youtube.com/channel/UC46Zj8pDH5tDosqm1gd7WTg
+2025-11-11 13:27:47,835 [INFO] ➡️ Mengecek footer link: Blog (https://dev.to/playwright)
+2025-11-11 13:27:47,836 [INFO] ✅ Link footer valid: https://dev.to/playwright
+2025-11-11 13:27:47,842 [INFO] ➡️ Mengecek footer link: Ambassadors (/python/community/ambassadors)
+2025-11-11 13:27:47,842 [INFO] ✅ Link footer valid: /python/community/ambassadors
+2025-11-11 13:27:48,060 [INFO] 📸 Screenshot footer tersimpan.
+2025-11-11 13:27:48,061 [INFO] 🎉 Semua tautan footer berhasil diverifikasi.
+2025-11-11 13:27:49,123 [INFO] 🌐 Membuka: https://playwright.dev
+2025-11-11 13:27:49,548 [INFO] 📄 Judul halaman: Fast and reliable end-to-end testing for modern web apps | Playwright
+2025-11-11 13:27:49,548 [INFO] ✅ [PASS] https://playwright.dev - Judul cocok.
+2025-11-11 13:27:49,548 [INFO] ------------------------------------------------------------
+2025-11-11 13:27:50,886 [INFO] 🌐 Membuka: https://w3schools.com
+2025-11-11 13:27:51,999 [INFO] 📄 Judul halaman: W3Schools Online Web Tutorials
+2025-11-11 13:27:51,999 [INFO] ✅ [PASS] https://w3schools.com - Judul cocok.
+2025-11-11 13:27:51,999 [INFO] ------------------------------------------------------------
+2025-11-11 13:27:52,648 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:52,652 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:54,669 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:56,687 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:56,701 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:56,711 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:56,721 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:56,725 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:56,732 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:56,738 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:56,744 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:56,797 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:56,802 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:56,813 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:56,818 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:56,822 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:56,836 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:56,839 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:56,843 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:56,848 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:57,133 [INFO] 🌐 Membuka: https://python.org
+2025-11-11 13:27:57,971 [INFO] 📄 Judul halaman: Welcome to Python.org
+2025-11-11 13:27:57,971 [INFO] ✅ [PASS] https://python.org - Judul cocok.
+2025-11-11 13:27:57,971 [INFO] ------------------------------------------------------------
+2025-11-11 13:27:58,373 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,378 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,384 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,403 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,412 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,415 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,419 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,424 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,427 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,429 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,433 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,436 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,439 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,529 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,535 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,538 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,549 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,554 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,557 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,560 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,563 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,573 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,576 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,582 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,586 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,590 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,596 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,601 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,605 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,614 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,618 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,622 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,626 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,629 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,634 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,639 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,649 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,654 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,657 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,661 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,666 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:27:58,669 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:15,091 [INFO] Membuka halaman: https://playwright.dev
+2025-11-11 13:32:15,627 [INFO] Title halaman: Fast and reliable end-to-end testing for modern web apps | Playwright
+2025-11-11 13:32:15,657 [INFO] ✅ https://playwright.dev berisi teks 'Playwright' seperti yang diharapkan.
+2025-11-11 13:32:31,357 [INFO] 🔹 Memulai pengujian navigasi utama...
+2025-11-11 13:32:33,224 [INFO] ✅ Halaman utama Playwright Python dibuka.
+2025-11-11 13:32:33,254 [INFO] ✅ Judul halaman sesuai (regex cocok).
+2025-11-11 13:32:33,254 [INFO] 🔍 Mengecek tautan: Get started
+2025-11-11 13:32:33,324 [INFO] ✅ URL berisi 'intro' sesuai ekspektasi.
+2025-11-11 13:32:34,424 [INFO] ↩️ Kembali ke halaman utama untuk cek tautan berikutnya.
+2025-11-11 13:32:34,424 [INFO] 🔍 Mengecek tautan: API
+2025-11-11 13:32:34,488 [INFO] ✅ URL berisi 'api' sesuai ekspektasi.
+2025-11-11 13:32:35,539 [INFO] ↩️ Kembali ke halaman utama untuk cek tautan berikutnya.
+2025-11-11 13:32:35,540 [INFO] 🔍 Mengecek tautan: Guides
+2025-11-11 13:32:36,113 [INFO] [ERROR] Tidak dapat menemukan link: Guides
+2025-11-11 13:32:36,328 [INFO] 📸 Screenshot error disimpan: reports/screenshots/FAILED_NAV_20251111_133231.png
+2025-11-11 13:32:36,547 [INFO] 🔹 Memulai pengujian tautan footer...
+2025-11-11 13:32:37,589 [INFO] 🔍 Ditemukan 12 tautan di footer.
+2025-11-11 13:32:37,598 [INFO] ➡️ Mengecek footer link: Getting started (/python/docs/intro)
+2025-11-11 13:32:37,598 [INFO] ✅ Link footer valid: /python/docs/intro
+2025-11-11 13:32:37,605 [INFO] ➡️ Mengecek footer link: Playwright Training (https://learn.microsoft.com/en-us/training/modules/build-with-playwright/)
+2025-11-11 13:32:37,605 [INFO] ✅ Link footer valid: https://learn.microsoft.com/en-us/training/modules/build-with-playwright/
+2025-11-11 13:32:37,611 [INFO] ➡️ Mengecek footer link: Learn Videos (/python/community/learn-videos)
+2025-11-11 13:32:37,611 [INFO] ✅ Link footer valid: /python/community/learn-videos
+2025-11-11 13:32:37,616 [INFO] ➡️ Mengecek footer link: Feature Videos (/python/community/feature-videos)
+2025-11-11 13:32:37,616 [INFO] ✅ Link footer valid: /python/community/feature-videos
+2025-11-11 13:32:37,621 [INFO] ➡️ Mengecek footer link: Stack Overflow (https://stackoverflow.com/questions/tagged/playwright)
+2025-11-11 13:32:37,621 [INFO] ✅ Link footer valid: https://stackoverflow.com/questions/tagged/playwright
+2025-11-11 13:32:37,626 [INFO] ➡️ Mengecek footer link: Discord (https://aka.ms/playwright/discord)
+2025-11-11 13:32:37,626 [INFO] ✅ Link footer valid: https://aka.ms/playwright/discord
+2025-11-11 13:32:37,630 [INFO] ➡️ Mengecek footer link: Twitter (https://twitter.com/playwrightweb)
+2025-11-11 13:32:37,631 [INFO] ✅ Link footer valid: https://twitter.com/playwrightweb
+2025-11-11 13:32:37,635 [INFO] ➡️ Mengecek footer link: LinkedIn (https://www.linkedin.com/company/playwrightweb)
+2025-11-11 13:32:37,635 [INFO] ✅ Link footer valid: https://www.linkedin.com/company/playwrightweb
+2025-11-11 13:32:37,639 [INFO] ➡️ Mengecek footer link: GitHub (https://github.com/microsoft/playwright-python)
+2025-11-11 13:32:37,639 [INFO] ✅ Link footer valid: https://github.com/microsoft/playwright-python
+2025-11-11 13:32:37,643 [INFO] ➡️ Mengecek footer link: YouTube (https://www.youtube.com/channel/UC46Zj8pDH5tDosqm1gd7WTg)
+2025-11-11 13:32:37,643 [INFO] ✅ Link footer valid: https://www.youtube.com/channel/UC46Zj8pDH5tDosqm1gd7WTg
+2025-11-11 13:32:37,649 [INFO] ➡️ Mengecek footer link: Blog (https://dev.to/playwright)
+2025-11-11 13:32:37,649 [INFO] ✅ Link footer valid: https://dev.to/playwright
+2025-11-11 13:32:37,653 [INFO] ➡️ Mengecek footer link: Ambassadors (/python/community/ambassadors)
+2025-11-11 13:32:37,653 [INFO] ✅ Link footer valid: /python/community/ambassadors
+2025-11-11 13:32:37,824 [INFO] 📸 Screenshot footer tersimpan.
+2025-11-11 13:32:37,825 [INFO] 🎉 Semua tautan footer berhasil diverifikasi.
+2025-11-11 13:32:39,568 [INFO] 🌐 Membuka: https://playwright.dev
+2025-11-11 13:32:39,958 [INFO] 📄 Judul halaman: Fast and reliable end-to-end testing for modern web apps | Playwright
+2025-11-11 13:32:39,958 [INFO] ✅ [PASS] https://playwright.dev - Judul cocok.
+2025-11-11 13:32:39,958 [INFO] ------------------------------------------------------------
+2025-11-11 13:32:40,937 [INFO] Membuka halaman: https://w3schools.com
+2025-11-11 13:32:42,485 [INFO] Title halaman: W3Schools Online Web Tutorials
+2025-11-11 13:32:42,511 [INFO] ✅ https://w3schools.com berisi teks 'W3Schools' seperti yang diharapkan.
+2025-11-11 13:32:50,546 [INFO] 🌐 Membuka: https://w3schools.com
+2025-11-11 13:32:51,792 [INFO] 📄 Judul halaman: W3Schools Online Web Tutorials
+2025-11-11 13:32:51,792 [INFO] ✅ [PASS] https://w3schools.com - Judul cocok.
+2025-11-11 13:32:51,792 [INFO] ------------------------------------------------------------
+2025-11-11 13:32:52,358 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:52,365 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:54,378 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:56,393 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:56,403 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:56,413 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:56,421 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:56,428 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:56,433 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:56,439 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:56,444 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:56,455 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:56,461 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:56,464 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:56,469 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:56,473 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:56,476 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:56,479 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:56,483 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:56,486 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:56,729 [INFO] 🌐 Membuka: https://python.org
+2025-11-11 13:32:57,500 [INFO] 📄 Judul halaman: Welcome to Python.org
+2025-11-11 13:32:57,500 [INFO] ✅ [PASS] https://python.org - Judul cocok.
+2025-11-11 13:32:57,500 [INFO] ------------------------------------------------------------
+2025-11-11 13:32:57,863 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,867 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,870 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,876 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,878 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,881 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,885 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,888 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,890 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,893 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,896 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,899 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,902 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,904 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,906 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,910 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,914 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,917 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,919 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,922 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,926 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,930 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,933 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,936 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,939 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,947 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,950 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,954 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,957 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,960 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,963 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,966 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,969 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,977 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,980 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,983 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,985 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,989 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,992 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,994 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:57,997 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:58,000 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:58,003 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:58,007 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:58,009 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:32:58,012 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:34,010 [INFO] 🔹 Memulai pengujian tautan footer...
+2025-11-11 13:33:35,074 [INFO] 🔍 Ditemukan 12 tautan di footer.
+2025-11-11 13:33:35,084 [INFO] ➡️ Mengecek footer link: Getting started (/python/docs/intro)
+2025-11-11 13:33:35,084 [INFO] ✅ Link footer valid: /python/docs/intro
+2025-11-11 13:33:35,090 [INFO] ➡️ Mengecek footer link: Playwright Training (https://learn.microsoft.com/en-us/training/modules/build-with-playwright/)
+2025-11-11 13:33:35,090 [INFO] ✅ Link footer valid: https://learn.microsoft.com/en-us/training/modules/build-with-playwright/
+2025-11-11 13:33:35,098 [INFO] ➡️ Mengecek footer link: Learn Videos (/python/community/learn-videos)
+2025-11-11 13:33:35,098 [INFO] ✅ Link footer valid: /python/community/learn-videos
+2025-11-11 13:33:35,103 [INFO] ➡️ Mengecek footer link: Feature Videos (/python/community/feature-videos)
+2025-11-11 13:33:35,103 [INFO] ✅ Link footer valid: /python/community/feature-videos
+2025-11-11 13:33:35,110 [INFO] ➡️ Mengecek footer link: Stack Overflow (https://stackoverflow.com/questions/tagged/playwright)
+2025-11-11 13:33:35,110 [INFO] ✅ Link footer valid: https://stackoverflow.com/questions/tagged/playwright
+2025-11-11 13:33:35,114 [INFO] ➡️ Mengecek footer link: Discord (https://aka.ms/playwright/discord)
+2025-11-11 13:33:35,114 [INFO] ✅ Link footer valid: https://aka.ms/playwright/discord
+2025-11-11 13:33:35,118 [INFO] ➡️ Mengecek footer link: Twitter (https://twitter.com/playwrightweb)
+2025-11-11 13:33:35,118 [INFO] ✅ Link footer valid: https://twitter.com/playwrightweb
+2025-11-11 13:33:35,122 [INFO] ➡️ Mengecek footer link: LinkedIn (https://www.linkedin.com/company/playwrightweb)
+2025-11-11 13:33:35,122 [INFO] ✅ Link footer valid: https://www.linkedin.com/company/playwrightweb
+2025-11-11 13:33:35,126 [INFO] ➡️ Mengecek footer link: GitHub (https://github.com/microsoft/playwright-python)
+2025-11-11 13:33:35,126 [INFO] ✅ Link footer valid: https://github.com/microsoft/playwright-python
+2025-11-11 13:33:35,130 [INFO] ➡️ Mengecek footer link: YouTube (https://www.youtube.com/channel/UC46Zj8pDH5tDosqm1gd7WTg)
+2025-11-11 13:33:35,130 [INFO] ✅ Link footer valid: https://www.youtube.com/channel/UC46Zj8pDH5tDosqm1gd7WTg
+2025-11-11 13:33:35,134 [INFO] ➡️ Mengecek footer link: Blog (https://dev.to/playwright)
+2025-11-11 13:33:35,134 [INFO] ✅ Link footer valid: https://dev.to/playwright
+2025-11-11 13:33:35,138 [INFO] ➡️ Mengecek footer link: Ambassadors (/python/community/ambassadors)
+2025-11-11 13:33:35,138 [INFO] ✅ Link footer valid: /python/community/ambassadors
+2025-11-11 13:33:35,306 [INFO] 📸 Screenshot footer tersimpan.
+2025-11-11 13:33:35,306 [INFO] 🎉 Semua tautan footer berhasil diverifikasi.
+2025-11-11 13:33:36,733 [INFO] 🌐 Membuka: https://playwright.dev
+2025-11-11 13:33:37,117 [INFO] 📄 Judul halaman: Fast and reliable end-to-end testing for modern web apps | Playwright
+2025-11-11 13:33:37,118 [INFO] ✅ [PASS] https://playwright.dev - Judul cocok.
+2025-11-11 13:33:37,118 [INFO] ------------------------------------------------------------
+2025-11-11 13:33:38,663 [INFO] 🌐 Membuka: https://w3schools.com
+2025-11-11 13:33:39,839 [INFO] 📄 Judul halaman: W3Schools Online Web Tutorials
+2025-11-11 13:33:39,839 [INFO] ✅ [PASS] https://w3schools.com - Judul cocok.
+2025-11-11 13:33:39,840 [INFO] ------------------------------------------------------------
+2025-11-11 13:33:40,421 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:40,424 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:42,437 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:44,450 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:44,462 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:44,470 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:44,476 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:44,481 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:44,487 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:44,494 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:44,499 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:44,511 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:44,516 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:44,521 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:44,528 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:44,532 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:44,536 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:44,541 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:44,544 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:44,547 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:44,775 [INFO] 🌐 Membuka: https://python.org
+2025-11-11 13:33:45,278 [INFO] 📄 Judul halaman: Welcome to Python.org
+2025-11-11 13:33:45,278 [INFO] ✅ [PASS] https://python.org - Judul cocok.
+2025-11-11 13:33:45,278 [INFO] ------------------------------------------------------------
+2025-11-11 13:33:45,660 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,666 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,669 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,675 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,678 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,681 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,684 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,688 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,690 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,694 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,697 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,700 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,703 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,779 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,781 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,784 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,786 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,789 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,793 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,797 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,799 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,807 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,810 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,813 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,817 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,821 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,824 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,827 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,830 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,836 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,839 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,842 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,847 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,851 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,854 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,859 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,862 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,865 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,868 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,870 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,875 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:33:45,878 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:09,918 [INFO] 🔹 Memulai pengujian tautan footer...
+2025-11-11 13:37:11,329 [INFO] 🔍 Ditemukan 12 tautan di footer.
+2025-11-11 13:37:11,337 [INFO] ➡️ Mengecek footer link: Getting started (/python/docs/intro)
+2025-11-11 13:37:11,337 [INFO] ✅ Link footer valid: /python/docs/intro
+2025-11-11 13:37:11,346 [INFO] ➡️ Mengecek footer link: Playwright Training (https://learn.microsoft.com/en-us/training/modules/build-with-playwright/)
+2025-11-11 13:37:11,346 [INFO] ✅ Link footer valid: https://learn.microsoft.com/en-us/training/modules/build-with-playwright/
+2025-11-11 13:37:11,352 [INFO] ➡️ Mengecek footer link: Learn Videos (/python/community/learn-videos)
+2025-11-11 13:37:11,352 [INFO] ✅ Link footer valid: /python/community/learn-videos
+2025-11-11 13:37:11,358 [INFO] ➡️ Mengecek footer link: Feature Videos (/python/community/feature-videos)
+2025-11-11 13:37:11,358 [INFO] ✅ Link footer valid: /python/community/feature-videos
+2025-11-11 13:37:11,362 [INFO] ➡️ Mengecek footer link: Stack Overflow (https://stackoverflow.com/questions/tagged/playwright)
+2025-11-11 13:37:11,362 [INFO] ✅ Link footer valid: https://stackoverflow.com/questions/tagged/playwright
+2025-11-11 13:37:11,367 [INFO] ➡️ Mengecek footer link: Discord (https://aka.ms/playwright/discord)
+2025-11-11 13:37:11,367 [INFO] ✅ Link footer valid: https://aka.ms/playwright/discord
+2025-11-11 13:37:11,371 [INFO] ➡️ Mengecek footer link: Twitter (https://twitter.com/playwrightweb)
+2025-11-11 13:37:11,371 [INFO] ✅ Link footer valid: https://twitter.com/playwrightweb
+2025-11-11 13:37:11,375 [INFO] ➡️ Mengecek footer link: LinkedIn (https://www.linkedin.com/company/playwrightweb)
+2025-11-11 13:37:11,375 [INFO] ✅ Link footer valid: https://www.linkedin.com/company/playwrightweb
+2025-11-11 13:37:11,379 [INFO] ➡️ Mengecek footer link: GitHub (https://github.com/microsoft/playwright-python)
+2025-11-11 13:37:11,379 [INFO] ✅ Link footer valid: https://github.com/microsoft/playwright-python
+2025-11-11 13:37:11,383 [INFO] ➡️ Mengecek footer link: YouTube (https://www.youtube.com/channel/UC46Zj8pDH5tDosqm1gd7WTg)
+2025-11-11 13:37:11,383 [INFO] ✅ Link footer valid: https://www.youtube.com/channel/UC46Zj8pDH5tDosqm1gd7WTg
+2025-11-11 13:37:11,386 [INFO] ➡️ Mengecek footer link: Blog (https://dev.to/playwright)
+2025-11-11 13:37:11,386 [INFO] ✅ Link footer valid: https://dev.to/playwright
+2025-11-11 13:37:11,390 [INFO] ➡️ Mengecek footer link: Ambassadors (/python/community/ambassadors)
+2025-11-11 13:37:11,390 [INFO] ✅ Link footer valid: /python/community/ambassadors
+2025-11-11 13:37:11,558 [INFO] 📸 Screenshot footer tersimpan.
+2025-11-11 13:37:11,558 [INFO] 🎉 Semua tautan footer berhasil diverifikasi.
+2025-11-11 13:37:12,562 [INFO] 🌐 Membuka: https://playwright.dev
+2025-11-11 13:37:13,050 [INFO] 📄 Judul halaman: Fast and reliable end-to-end testing for modern web apps | Playwright
+2025-11-11 13:37:13,050 [INFO] ✅ [PASS] https://playwright.dev - Judul cocok.
+2025-11-11 13:37:13,050 [INFO] ------------------------------------------------------------
+2025-11-11 13:37:14,279 [INFO] 🌐 Membuka: https://w3schools.com
+2025-11-11 13:37:15,450 [INFO] 📄 Judul halaman: W3Schools Online Web Tutorials
+2025-11-11 13:37:15,450 [INFO] ✅ [PASS] https://w3schools.com - Judul cocok.
+2025-11-11 13:37:15,450 [INFO] ------------------------------------------------------------
+2025-11-11 13:37:16,045 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:16,049 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:18,056 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:20,069 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:20,079 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:20,086 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:20,093 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:20,098 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:20,103 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:20,109 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:20,113 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:20,123 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:20,127 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:20,132 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:20,135 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:20,139 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:20,143 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:20,146 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:20,149 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:20,152 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:20,356 [INFO] 🌐 Membuka: https://python.org
+2025-11-11 13:37:21,064 [INFO] 📄 Judul halaman: Welcome to Python.org
+2025-11-11 13:37:21,064 [INFO] ✅ [PASS] https://python.org - Judul cocok.
+2025-11-11 13:37:21,064 [INFO] ------------------------------------------------------------
+2025-11-11 13:37:21,443 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,446 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,448 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,454 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,457 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,460 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,463 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,466 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,469 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,471 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,474 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,477 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,481 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,560 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,562 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,564 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,567 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,569 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,572 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,575 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,577 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,585 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,587 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,591 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,594 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,597 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,600 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,603 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,607 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,614 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,617 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,619 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,624 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,628 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,630 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,633 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,636 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,639 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,642 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,645 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,647 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:37:21,650 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 13:54:46,147 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:00,493 [INFO] 🔹 Memulai pengujian tautan footer...
+2025-11-11 14:09:01,949 [INFO] 🔍 Ditemukan 12 tautan di footer.
+2025-11-11 14:09:01,957 [INFO] ➡️ Mengecek footer link: Getting started (/python/docs/intro)
+2025-11-11 14:09:01,957 [INFO] ✅ Link footer valid: /python/docs/intro
+2025-11-11 14:09:01,963 [INFO] ➡️ Mengecek footer link: Playwright Training (https://learn.microsoft.com/en-us/training/modules/build-with-playwright/)
+2025-11-11 14:09:01,963 [INFO] ✅ Link footer valid: https://learn.microsoft.com/en-us/training/modules/build-with-playwright/
+2025-11-11 14:09:01,969 [INFO] ➡️ Mengecek footer link: Learn Videos (/python/community/learn-videos)
+2025-11-11 14:09:01,969 [INFO] ✅ Link footer valid: /python/community/learn-videos
+2025-11-11 14:09:01,976 [INFO] ➡️ Mengecek footer link: Feature Videos (/python/community/feature-videos)
+2025-11-11 14:09:01,976 [INFO] ✅ Link footer valid: /python/community/feature-videos
+2025-11-11 14:09:01,982 [INFO] ➡️ Mengecek footer link: Stack Overflow (https://stackoverflow.com/questions/tagged/playwright)
+2025-11-11 14:09:01,982 [INFO] ✅ Link footer valid: https://stackoverflow.com/questions/tagged/playwright
+2025-11-11 14:09:01,986 [INFO] ➡️ Mengecek footer link: Discord (https://aka.ms/playwright/discord)
+2025-11-11 14:09:01,987 [INFO] ✅ Link footer valid: https://aka.ms/playwright/discord
+2025-11-11 14:09:01,991 [INFO] ➡️ Mengecek footer link: Twitter (https://twitter.com/playwrightweb)
+2025-11-11 14:09:01,991 [INFO] ✅ Link footer valid: https://twitter.com/playwrightweb
+2025-11-11 14:09:01,994 [INFO] ➡️ Mengecek footer link: LinkedIn (https://www.linkedin.com/company/playwrightweb)
+2025-11-11 14:09:01,994 [INFO] ✅ Link footer valid: https://www.linkedin.com/company/playwrightweb
+2025-11-11 14:09:01,997 [INFO] ➡️ Mengecek footer link: GitHub (https://github.com/microsoft/playwright-python)
+2025-11-11 14:09:01,997 [INFO] ✅ Link footer valid: https://github.com/microsoft/playwright-python
+2025-11-11 14:09:02,000 [INFO] ➡️ Mengecek footer link: YouTube (https://www.youtube.com/channel/UC46Zj8pDH5tDosqm1gd7WTg)
+2025-11-11 14:09:02,001 [INFO] ✅ Link footer valid: https://www.youtube.com/channel/UC46Zj8pDH5tDosqm1gd7WTg
+2025-11-11 14:09:02,004 [INFO] ➡️ Mengecek footer link: Blog (https://dev.to/playwright)
+2025-11-11 14:09:02,004 [INFO] ✅ Link footer valid: https://dev.to/playwright
+2025-11-11 14:09:02,007 [INFO] ➡️ Mengecek footer link: Ambassadors (/python/community/ambassadors)
+2025-11-11 14:09:02,007 [INFO] ✅ Link footer valid: /python/community/ambassadors
+2025-11-11 14:09:02,190 [INFO] 📸 Screenshot footer tersimpan.
+2025-11-11 14:09:02,191 [INFO] 🎉 Semua tautan footer berhasil diverifikasi.
+2025-11-11 14:09:04,025 [INFO] 🌐 Membuka: https://playwright.dev
+2025-11-11 14:09:04,531 [INFO] 📄 Judul halaman: Fast and reliable end-to-end testing for modern web apps | Playwright
+2025-11-11 14:09:04,531 [INFO] ✅ [PASS] https://playwright.dev - Judul cocok.
+2025-11-11 14:09:04,531 [INFO] ------------------------------------------------------------
+2025-11-11 14:09:06,848 [INFO] 🌐 Membuka: https://w3schools.com
+2025-11-11 14:09:08,168 [INFO] 📄 Judul halaman: W3Schools Online Web Tutorials
+2025-11-11 14:09:08,168 [INFO] ✅ [PASS] https://w3schools.com - Judul cocok.
+2025-11-11 14:09:08,169 [INFO] ------------------------------------------------------------
+2025-11-11 14:09:08,878 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:08,884 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:10,897 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:12,914 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:12,923 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:12,931 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:12,938 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:12,943 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:12,949 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:12,954 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:12,960 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:12,974 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:12,978 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:12,981 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:12,985 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:12,989 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:12,991 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:12,994 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:12,998 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:13,001 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:14,140 [INFO] 🌐 Membuka: https://python.org
+2025-11-11 14:09:14,800 [INFO] 📄 Judul halaman: Welcome to Python.org
+2025-11-11 14:09:14,800 [INFO] ✅ [PASS] https://python.org - Judul cocok.
+2025-11-11 14:09:14,801 [INFO] ------------------------------------------------------------
+2025-11-11 14:09:15,733 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,737 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,744 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,748 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,750 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,753 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,757 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,760 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,763 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,766 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,769 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,772 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,854 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,856 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,859 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,862 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,866 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,869 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,871 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,874 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,881 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,884 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,887 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,891 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,894 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,896 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,899 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,902 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,908 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,911 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,915 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,918 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,920 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,923 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,925 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,928 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,931 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,934 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,937 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,939 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'
+2025-11-11 14:09:15,942 [WARNING] Gagal ambil screenshot: 'NoneType' object has no attribute 'screenshot'

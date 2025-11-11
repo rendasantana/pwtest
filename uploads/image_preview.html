@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>Latihan Upload Gambar</h2>
+    <input type="file" id="imageInput" accept="image/*" />
+    <br /><br />
+    <img
+      id="preview"
+      src=""
+      width="200"
+      style="display: none; border: 1px solid #ccc"
+    />
+
+    <script>
+      const input = document.getElementById("imageInput");
+      const preview = document.getElementById("preview");
+
+      input.addEventListener("change", () => {
+        const file = input.files[0];
+        if (file) {
+          const reader = new FileReader();
+          reader.onload = (e) => {
+            preview.src = e.target.result;
+            preview.style.display = "block";
+          };
+          reader.readAsDataURL(file);
+        }
+      });
+    </script>
+  </body>
+</html>

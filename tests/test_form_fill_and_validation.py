@@ -1,58 +1,38 @@
-from playwright.sync_api import sync_playwright, expect
-import os, tempfile
+import pytest
+from playwright.sync_api import expect
 
-def test_form_fill_and_validation(record_property):
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)
-        page = browser.new_page()
+@pytest.mark.smoke
+def test_form_fill_and_validation(page):
+    """Latihan 2: Mengisi dan validasi form dengan selector spesifik & aman"""
 
-        # 1️⃣ Buat file HTML form sederhana secara lokal
-        html_content = """
-        <html>
-        <body>
-        <h2>Latihan Form</h2>
-        <form id="myForm">
-            First name:<br>
-            <input type="text" id="fname" name="firstname"><br>
-            Last name:<br>
-            <input type="text" id="lname" name="lastname"><br><br>
-            <input type="submit" value="Submit">
-        </form>
-        <p id="result"></p>
-        <script>
-        document.getElementById("myForm").addEventListener("submit", function(e) {
-            e.preventDefault();
-            const fname = document.getElementById("fname").value;
-            const lname = document.getElementById("lname").value;
-            document.getElementById("result").innerText = "Halo, " + fname + " " + lname + "!";
-        });
-        </script>
-        </body>
-        </html>
-        """
+    try:
+        # 1️⃣ Buka halaman form
+        page.goto("https://www.w3schools.com/html/html_forms.asp", timeout=120000, wait_until="domcontentloaded")
 
-        tmpfile = tempfile.NamedTemporaryFile(delete=False, suffix=".html")
-        tmpfile.write(html_content.encode("utf-8"))
-        tmpfile.close()
+        # 2️⃣ Pastikan halaman benar
+        expect(page).to_have_url("https://www.w3schools.com/html/html_forms.asp")
 
-        # 2️⃣ Buka file HTML lokal
-        page.goto(f"file://{tmpfile.name}")
+        # 3️⃣ Scroll ke area form pertama
+        form = page.locator("#main form[action='/action_page.php']").first
+        form.scroll_into_view_if_needed()
 
-        # 3️⃣ Isi form
-        page.fill("#fname", "Renda")
-        page.fill("#lname", "Santana")
+        # 4️⃣ Isi input di dalam form itu saja
+        form.locator("input[name='firstname']").fill("Renda")
+        form.locator("input[name='lastname']").fill("Santana")
 
-        # 4️⃣ Klik submit
-        page.click("input[type='submit']")
+        # 5️⃣ Klik tombol Submit di form itu
+        form.locator("input[type='submit']").click()
 
-        # 5️⃣ Validasi hasil
-        expect(page.locator("#result")).to_have_text("Halo, Renda Santana!")
+        # 6️⃣ Tunggu halaman hasil
+        page.wait_for_url("**/action_page.php", timeout=15000)
+        expect(page).to_have_url("https://www.w3schools.com/action_page.php")
 
-        # 6️⃣ Screenshot hasilnya
-        os.makedirs("tests-output/forms", exist_ok=True)
-        screenshot_path = "tests-output/forms/form_local_result.png"
-        page.screenshot(path=screenshot_path, full_page=False)
-        record_property("screenshot", screenshot_path)
+        # 7️⃣ Validasi isi hasil
+        content = page.content()
+        assert "Renda" in content
+        assert "Santana" in content
 
-        print("✅ Form lokal berhasil diisi dan divalidasi.")
-        browser.close()
+        print("\n✅ Form berhasil diisi dan diverifikasi!")
+
+    except Exception as e:
+        pytest.fail(f"Terjadi error saat pengujian form: {e}")
